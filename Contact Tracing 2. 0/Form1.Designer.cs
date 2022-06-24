@@ -133,6 +133,7 @@
             this.btnInformation.TabIndex = 2;
             this.btnInformation.Text = "Information";
             this.btnInformation.UseVisualStyleBackColor = false;
+            this.btnInformation.Click += new System.EventHandler(this.btnInformation_Click);
             // 
             // lblPersonalInfo
             // 
@@ -351,7 +352,6 @@
             this.txtbxfever.Name = "txtbxfever";
             this.txtbxfever.Size = new System.Drawing.Size(47, 22);
             this.txtbxfever.TabIndex = 53;
-            this.txtbxfever.TextChanged += new System.EventHandler(this.txtbxresultatfever_TextChanged);
             // 
             // btn1No
             // 
@@ -374,7 +374,6 @@
             this.btn1Yes.TabIndex = 51;
             this.btn1Yes.Text = "Yes";
             this.btn1Yes.UseVisualStyleBackColor = false;
-            this.btn1Yes.Click += new System.EventHandler(this.button1_Click);
             // 
             // lblfever
             // 
@@ -912,7 +911,6 @@
             this.Name = "CntctTrcngform";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Contact Tracing";
-            this.Load += new System.EventHandler(this.CntctTrcngform_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logopic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
