@@ -1,0 +1,18 @@
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\bin\Debug\net6.0-windows\Contact Tracing 2. 0.exe
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\bin\Debug\net6.0-windows\Contact Tracing 2. 0.deps.json
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\bin\Debug\net6.0-windows\Contact Tracing 2. 0.runtimeconfig.json
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\bin\Debug\net6.0-windows\Contact Tracing 2. 0.dll
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\bin\Debug\net6.0-windows\Contact Tracing 2. 0.pdb
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.csproj.AssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact_Tracing_2._0.CntctTrcngform.resources
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact_Tracing_2._0.Properties.Resources.resources
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.csproj.GenerateResource.cache
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.AssemblyInfoInputs.cache
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.AssemblyInfo.cs
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.csproj.CoreCompileInputs.cache
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.dll
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\refint\Contact Tracing 2. 0.dll
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.pdb
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.genruntimeconfig.cache
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\ref\Contact Tracing 2. 0.dll
