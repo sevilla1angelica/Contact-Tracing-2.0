@@ -98,6 +98,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
+            this.dateoffillingup = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.logopic)).BeginInit();
             this.SuspendLayout();
             // 
@@ -827,6 +828,15 @@
             this.btnSave.Text = "Save Information";
             this.btnSave.UseVisualStyleBackColor = false;
             // 
+            // dateoffillingup
+            // 
+            this.dateoffillingup.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateoffillingup.Location = new System.Drawing.Point(481, 12);
+            this.dateoffillingup.Name = "dateoffillingup";
+            this.dateoffillingup.Size = new System.Drawing.Size(107, 25);
+            this.dateoffillingup.TabIndex = 95;
+            this.dateoffillingup.ValueChanged += new System.EventHandler(this.dateoffillingup_ValueChanged);
+            // 
             // CntctTrcngform
             // 
             this.AllowDrop = true;
@@ -836,8 +846,8 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(611, 831);
+            this.Controls.Add(this.dateoffillingup);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.label7);
@@ -988,5 +998,6 @@
         private Label label6;
         private Label label5;
         private Button btnSave;
+        private DateTimePicker dateoffillingup;
     }
 }
