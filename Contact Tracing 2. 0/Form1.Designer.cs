@@ -69,11 +69,11 @@
             this.btn4No = new System.Windows.Forms.Button();
             this.btn4Yes = new System.Windows.Forms.Button();
             this.lblAchesandPains = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtbx5RunnyRose = new System.Windows.Forms.TextBox();
             this.btn5No = new System.Windows.Forms.Button();
             this.btn5Yes = new System.Windows.Forms.Button();
             this.lblRunnyNose = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtbx8Diarrhea = new System.Windows.Forms.TextBox();
             this.btn8No = new System.Windows.Forms.Button();
             this.btn8Yes = new System.Windows.Forms.Button();
             this.lblDiarrhea = new System.Windows.Forms.Label();
@@ -375,6 +375,7 @@
             this.btn1Yes.TabIndex = 51;
             this.btn1Yes.Text = "Yes";
             this.btn1Yes.UseVisualStyleBackColor = false;
+            this.btn1Yes.Click += new System.EventHandler(this.btn1Yes_Click);
             // 
             // lblfever
             // 
@@ -418,6 +419,7 @@
             this.btn2Yes.TabIndex = 55;
             this.btn2Yes.Text = "Yes";
             this.btn2Yes.UseVisualStyleBackColor = false;
+            this.btn2Yes.Click += new System.EventHandler(this.btn2Yes_Click);
             // 
             // lblDryCough
             // 
@@ -461,6 +463,7 @@
             this.btn3Yes.TabIndex = 59;
             this.btn3Yes.Text = "Yes";
             this.btn3Yes.UseVisualStyleBackColor = false;
+            this.btn3Yes.Click += new System.EventHandler(this.btn3Yes_Click);
             // 
             // lblFatigue
             // 
@@ -504,6 +507,7 @@
             this.btn4Yes.TabIndex = 63;
             this.btn4Yes.Text = "Yes";
             this.btn4Yes.UseVisualStyleBackColor = false;
+            this.btn4Yes.Click += new System.EventHandler(this.btn4Yes_Click);
             // 
             // lblAchesandPains
             // 
@@ -515,16 +519,16 @@
             this.lblAchesandPains.TabIndex = 62;
             this.lblAchesandPains.Text = "Aches and Pains";
             // 
-            // textBox5
+            // txtbx5RunnyRose
             // 
-            this.textBox5.BackColor = System.Drawing.Color.Beige;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox5.Location = new System.Drawing.Point(418, 490);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(47, 22);
-            this.textBox5.TabIndex = 69;
+            this.txtbx5RunnyRose.BackColor = System.Drawing.Color.Beige;
+            this.txtbx5RunnyRose.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtbx5RunnyRose.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbx5RunnyRose.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtbx5RunnyRose.Location = new System.Drawing.Point(418, 490);
+            this.txtbx5RunnyRose.Name = "txtbx5RunnyRose";
+            this.txtbx5RunnyRose.Size = new System.Drawing.Size(47, 22);
+            this.txtbx5RunnyRose.TabIndex = 69;
             // 
             // btn5No
             // 
@@ -547,6 +551,7 @@
             this.btn5Yes.TabIndex = 67;
             this.btn5Yes.Text = "Yes";
             this.btn5Yes.UseVisualStyleBackColor = false;
+            this.btn5Yes.Click += new System.EventHandler(this.btn5Yes_Click);
             // 
             // lblRunnyNose
             // 
@@ -558,16 +563,16 @@
             this.lblRunnyNose.TabIndex = 66;
             this.lblRunnyNose.Text = "Runny Rose";
             // 
-            // textBox1
+            // txtbx8Diarrhea
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Beige;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox1.Location = new System.Drawing.Point(418, 579);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(47, 22);
-            this.textBox1.TabIndex = 81;
+            this.txtbx8Diarrhea.BackColor = System.Drawing.Color.Beige;
+            this.txtbx8Diarrhea.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtbx8Diarrhea.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbx8Diarrhea.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtbx8Diarrhea.Location = new System.Drawing.Point(418, 579);
+            this.txtbx8Diarrhea.Name = "txtbx8Diarrhea";
+            this.txtbx8Diarrhea.Size = new System.Drawing.Size(47, 22);
+            this.txtbx8Diarrhea.TabIndex = 81;
             // 
             // btn8No
             // 
@@ -590,6 +595,7 @@
             this.btn8Yes.TabIndex = 79;
             this.btn8Yes.Text = "Yes";
             this.btn8Yes.UseVisualStyleBackColor = false;
+            this.btn8Yes.Click += new System.EventHandler(this.btn8Yes_Click);
             // 
             // lblDiarrhea
             // 
@@ -633,6 +639,7 @@
             this.btn7Yes.TabIndex = 75;
             this.btn7Yes.Text = "Yes";
             this.btn7Yes.UseVisualStyleBackColor = false;
+            this.btn7Yes.Click += new System.EventHandler(this.btn7Yes_Click);
             // 
             // lblShortnessofBreathe
             // 
@@ -676,6 +683,7 @@
             this.btn6Yes.TabIndex = 71;
             this.btn6Yes.Text = "Yes";
             this.btn6Yes.UseVisualStyleBackColor = false;
+            this.btn6Yes.Click += new System.EventHandler(this.btn6Yes_Click);
             // 
             // lblSoreThroat
             // 
@@ -859,7 +867,7 @@
             this.Controls.Add(this.lblwarning);
             this.Controls.Add(this.txtbxTemp);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtbx8Diarrhea);
             this.Controls.Add(this.btn8No);
             this.Controls.Add(this.btn8Yes);
             this.Controls.Add(this.lblDiarrhea);
@@ -871,7 +879,7 @@
             this.Controls.Add(this.btn6No);
             this.Controls.Add(this.btn6Yes);
             this.Controls.Add(this.lblSoreThroat);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtbx5RunnyRose);
             this.Controls.Add(this.btn5No);
             this.Controls.Add(this.btn5Yes);
             this.Controls.Add(this.lblRunnyNose);
@@ -969,11 +977,11 @@
         private Button btn4No;
         private Button btn4Yes;
         private Label lblAchesandPains;
-        private TextBox textBox5;
+        private TextBox txtbx5RunnyRose;
         private Button btn5No;
         private Button btn5Yes;
         private Label lblRunnyNose;
-        private TextBox textBox1;
+        private TextBox txtbx8Diarrhea;
         private Button btn8No;
         private Button btn8Yes;
         private Label lblDiarrhea;

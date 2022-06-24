@@ -31,5 +31,45 @@ namespace Contact_Tracing_2._0
             dynamicDTP.MinDate = new DateTime(2019, 1, 1);
             dynamicDTP.MaxDate = new DateTime(2025, 12, 31);
         }
+
+        private void btn1Yes_Click(object sender, EventArgs e)
+        {
+            txtbxfever.Text = " Yes :< ";
+        }
+
+        private void btn2Yes_Click(object sender, EventArgs e)
+        {
+            txtboxDryCough.Text = " Yes :< ";
+        }
+
+        private void btn3Yes_Click(object sender, EventArgs e)
+        {
+            txtbxFatigue.Text = " Yes :< ";
+        }
+
+        private void btn4Yes_Click(object sender, EventArgs e)
+        {
+            txtbxAchesandPains.Text = " Yes :< ";
+        }
+
+        private void btn5Yes_Click(object sender, EventArgs e)
+        {
+            txtbx5RunnyRose.Text = " Yes :< ";
+        }
+
+        private void btn6Yes_Click(object sender, EventArgs e)
+        {
+            txtbxSoreThroat.Text = " Yes :< ";
+        }
+
+        private void btn7Yes_Click(object sender, EventArgs e)
+        {
+            txtbxShortnessofBreathe.Text = " Yes :< ";
+        }
+
+        private void btn8Yes_Click(object sender, EventArgs e)
+        {
+            txtbx8Diarrhea.Text = " Yes :< ";
+        }
     }
 }
