@@ -52,7 +52,7 @@
             this.lblProvince = new System.Windows.Forms.Label();
             this.txtbxRegion = new System.Windows.Forms.TextBox();
             this.lblRegion = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblsymptomquestion = new System.Windows.Forms.Label();
             this.txtbxfever = new System.Windows.Forms.TextBox();
             this.btn1No = new System.Windows.Forms.Button();
             this.btn1Yes = new System.Windows.Forms.Button();
@@ -85,20 +85,21 @@
             this.btn6No = new System.Windows.Forms.Button();
             this.btn6Yes = new System.Windows.Forms.Button();
             this.lblSoreThroat = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblTemperature = new System.Windows.Forms.Label();
             this.txtbxTemp = new System.Windows.Forms.TextBox();
             this.lblwarning = new System.Windows.Forms.Label();
             this.textBox8 = new System.Windows.Forms.TextBox();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
+            this.btn18No = new System.Windows.Forms.Button();
+            this.btn18Yes = new System.Windows.Forms.Button();
+            this.lblCovidsymptoms = new System.Windows.Forms.Label();
+            this.txtbxDiagnosedCovid = new System.Windows.Forms.TextBox();
+            this.btn17No = new System.Windows.Forms.Button();
+            this.btn17Yes = new System.Windows.Forms.Button();
+            this.lblDiagnosedCovid = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.dateoffillingup = new System.Windows.Forms.DateTimePicker();
+            this.txtbxCovidSymptoms = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.logopic)).BeginInit();
             this.SuspendLayout();
             // 
@@ -331,17 +332,17 @@
             this.lblRegion.TabIndex = 16;
             this.lblRegion.Text = "Region:";
             // 
-            // label1
+            // lblsymptomquestion
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(10, 461);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(433, 17);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Have you experience any of the following symptoms in the following 3 days?";
+            this.lblsymptomquestion.AutoSize = true;
+            this.lblsymptomquestion.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.lblsymptomquestion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblsymptomquestion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblsymptomquestion.Location = new System.Drawing.Point(10, 461);
+            this.lblsymptomquestion.Name = "lblsymptomquestion";
+            this.lblsymptomquestion.Size = new System.Drawing.Size(433, 17);
+            this.lblsymptomquestion.TabIndex = 24;
+            this.lblsymptomquestion.Text = "Have you experience any of the following symptoms in the following 3 days?";
             // 
             // txtbxfever
             // 
@@ -703,17 +704,17 @@
             this.lblSoreThroat.TabIndex = 70;
             this.lblSoreThroat.Text = "Sore Throat";
             // 
-            // label2
+            // lblTemperature
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.PaleGoldenrod;
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(8, 627);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 17);
-            this.label2.TabIndex = 82;
-            this.label2.Text = "Temperature in C";
+            this.lblTemperature.AutoSize = true;
+            this.lblTemperature.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.lblTemperature.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblTemperature.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTemperature.Location = new System.Drawing.Point(8, 627);
+            this.lblTemperature.Name = "lblTemperature";
+            this.lblTemperature.Size = new System.Drawing.Size(99, 17);
+            this.lblTemperature.TabIndex = 82;
+            this.lblTemperature.Text = "Temperature in C";
             // 
             // txtbxTemp
             // 
@@ -748,80 +749,84 @@
             this.textBox8.Size = new System.Drawing.Size(47, 22);
             this.textBox8.TabIndex = 93;
             // 
-            // button17
+            // btn18No
             // 
-            this.button17.BackColor = System.Drawing.Color.Ivory;
-            this.button17.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button17.Location = new System.Drawing.Point(342, 711);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(40, 23);
-            this.button17.TabIndex = 92;
-            this.button17.Text = "No";
-            this.button17.UseVisualStyleBackColor = false;
+            this.btn18No.BackColor = System.Drawing.Color.Ivory;
+            this.btn18No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn18No.Location = new System.Drawing.Point(342, 711);
+            this.btn18No.Name = "btn18No";
+            this.btn18No.Size = new System.Drawing.Size(40, 23);
+            this.btn18No.TabIndex = 92;
+            this.btn18No.Text = "No";
+            this.btn18No.UseVisualStyleBackColor = false;
+            this.btn18No.Click += new System.EventHandler(this.btn18No_Click);
             // 
-            // button18
+            // btn18Yes
             // 
-            this.button18.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.button18.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button18.Location = new System.Drawing.Point(296, 711);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(40, 23);
-            this.button18.TabIndex = 91;
-            this.button18.Text = "Yes";
-            this.button18.UseVisualStyleBackColor = false;
+            this.btn18Yes.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn18Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn18Yes.Location = new System.Drawing.Point(296, 711);
+            this.btn18Yes.Name = "btn18Yes";
+            this.btn18Yes.Size = new System.Drawing.Size(40, 23);
+            this.btn18Yes.TabIndex = 91;
+            this.btn18Yes.Text = "Yes";
+            this.btn18Yes.UseVisualStyleBackColor = false;
+            this.btn18Yes.Click += new System.EventHandler(this.btn18Yes_Click);
             // 
-            // label7
+            // lblCovidsymptoms
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(237, 695);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(352, 13);
-            this.label7.TabIndex = 90;
-            this.label7.Text = "Been in close contact with someone who had COVID-19 symptoms?";
+            this.lblCovidsymptoms.AutoSize = true;
+            this.lblCovidsymptoms.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblCovidsymptoms.Location = new System.Drawing.Point(237, 695);
+            this.lblCovidsymptoms.Name = "lblCovidsymptoms";
+            this.lblCovidsymptoms.Size = new System.Drawing.Size(352, 13);
+            this.lblCovidsymptoms.TabIndex = 90;
+            this.lblCovidsymptoms.Text = "Been in close contact with someone who had COVID-19 symptoms?";
             // 
-            // textBox7
+            // txtbxDiagnosedCovid
             // 
-            this.textBox7.BackColor = System.Drawing.Color.Beige;
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox7.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox7.Location = new System.Drawing.Point(237, 663);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(47, 22);
-            this.textBox7.TabIndex = 89;
+            this.txtbxDiagnosedCovid.BackColor = System.Drawing.Color.Beige;
+            this.txtbxDiagnosedCovid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtbxDiagnosedCovid.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbxDiagnosedCovid.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtbxDiagnosedCovid.Location = new System.Drawing.Point(237, 663);
+            this.txtbxDiagnosedCovid.Name = "txtbxDiagnosedCovid";
+            this.txtbxDiagnosedCovid.Size = new System.Drawing.Size(47, 22);
+            this.txtbxDiagnosedCovid.TabIndex = 89;
             // 
-            // button19
+            // btn17No
             // 
-            this.button19.BackColor = System.Drawing.Color.Ivory;
-            this.button19.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button19.Location = new System.Drawing.Point(342, 663);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(40, 23);
-            this.button19.TabIndex = 88;
-            this.button19.Text = "No";
-            this.button19.UseVisualStyleBackColor = false;
+            this.btn17No.BackColor = System.Drawing.Color.Ivory;
+            this.btn17No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn17No.Location = new System.Drawing.Point(342, 663);
+            this.btn17No.Name = "btn17No";
+            this.btn17No.Size = new System.Drawing.Size(40, 23);
+            this.btn17No.TabIndex = 88;
+            this.btn17No.Text = "No";
+            this.btn17No.UseVisualStyleBackColor = false;
+            this.btn17No.Click += new System.EventHandler(this.btn17No_Click);
             // 
-            // button20
+            // btn17Yes
             // 
-            this.button20.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.button20.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button20.Location = new System.Drawing.Point(296, 663);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(40, 23);
-            this.button20.TabIndex = 87;
-            this.button20.Text = "Yes";
-            this.button20.UseVisualStyleBackColor = false;
+            this.btn17Yes.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btn17Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn17Yes.Location = new System.Drawing.Point(296, 663);
+            this.btn17Yes.Name = "btn17Yes";
+            this.btn17Yes.Size = new System.Drawing.Size(40, 23);
+            this.btn17Yes.TabIndex = 87;
+            this.btn17Yes.Text = "Yes";
+            this.btn17Yes.UseVisualStyleBackColor = false;
+            this.btn17Yes.Click += new System.EventHandler(this.btn17Yes_Click);
             // 
-            // label6
+            // lblDiagnosedCovid
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(235, 647);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(353, 13);
-            this.label6.TabIndex = 86;
-            this.label6.Text = "Been in contact with someone who was diagnosed with COVID-19?";
+            this.lblDiagnosedCovid.AutoSize = true;
+            this.lblDiagnosedCovid.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblDiagnosedCovid.Location = new System.Drawing.Point(235, 647);
+            this.lblDiagnosedCovid.Name = "lblDiagnosedCovid";
+            this.lblDiagnosedCovid.Size = new System.Drawing.Size(353, 13);
+            this.lblDiagnosedCovid.TabIndex = 86;
+            this.lblDiagnosedCovid.Text = "Been in contact with someone who was diagnosed with COVID-19?";
             // 
             // label5
             // 
@@ -853,6 +858,17 @@
             this.dateoffillingup.TabIndex = 95;
             this.dateoffillingup.ValueChanged += new System.EventHandler(this.dateoffillingup_ValueChanged);
             // 
+            // txtbxCovidSymptoms
+            // 
+            this.txtbxCovidSymptoms.BackColor = System.Drawing.Color.Beige;
+            this.txtbxCovidSymptoms.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtbxCovidSymptoms.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbxCovidSymptoms.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtbxCovidSymptoms.Location = new System.Drawing.Point(237, 711);
+            this.txtbxCovidSymptoms.Name = "txtbxCovidSymptoms";
+            this.txtbxCovidSymptoms.Size = new System.Drawing.Size(47, 22);
+            this.txtbxCovidSymptoms.TabIndex = 96;
+            // 
             // CntctTrcngform
             // 
             this.AllowDrop = true;
@@ -862,19 +878,20 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(611, 831);
+            this.Controls.Add(this.txtbxCovidSymptoms);
             this.Controls.Add(this.dateoffillingup);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.btn18No);
+            this.Controls.Add(this.btn18Yes);
+            this.Controls.Add(this.lblCovidsymptoms);
+            this.Controls.Add(this.txtbxDiagnosedCovid);
+            this.Controls.Add(this.btn17No);
+            this.Controls.Add(this.btn17Yes);
+            this.Controls.Add(this.lblDiagnosedCovid);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblwarning);
             this.Controls.Add(this.txtbxTemp);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblTemperature);
             this.Controls.Add(this.txtbxDiarrhea);
             this.Controls.Add(this.btn8No);
             this.Controls.Add(this.btn8Yes);
@@ -907,7 +924,7 @@
             this.Controls.Add(this.btn1No);
             this.Controls.Add(this.btn1Yes);
             this.Controls.Add(this.lblfever);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblsymptomquestion);
             this.Controls.Add(this.txtbxBarangay);
             this.Controls.Add(this.lblBarangay);
             this.Controls.Add(this.textBox2);
@@ -968,7 +985,7 @@
         private Label lblProvince;
         private TextBox txtbxRegion;
         private Label lblRegion;
-        private Label label1;
+        private Label lblsymptomquestion;
         private TextBox txtbxfever;
         private Button btn1No;
         private Button btn1Yes;
@@ -1001,19 +1018,20 @@
         private Button btn6No;
         private Button btn6Yes;
         private Label lblSoreThroat;
-        private Label label2;
+        private Label lblTemperature;
         private TextBox txtbxTemp;
         private Label lblwarning;
         private TextBox textBox8;
-        private Button button17;
-        private Button button18;
-        private Label label7;
-        private TextBox textBox7;
-        private Button button19;
-        private Button button20;
-        private Label label6;
+        private Button btn18No;
+        private Button btn18Yes;
+        private Label lblCovidsymptoms;
+        private TextBox txtbxDiagnosedCovid;
+        private Button btn17No;
+        private Button btn17Yes;
+        private Label lblDiagnosedCovid;
         private Label label5;
         private Button btnSave;
         private DateTimePicker dateoffillingup;
+        private TextBox txtbxCovidSymptoms;
     }
 }

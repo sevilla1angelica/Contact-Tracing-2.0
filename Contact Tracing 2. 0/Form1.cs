@@ -111,5 +111,25 @@ namespace Contact_Tracing_2._0
         {
             txtbxDiarrhea.Text = " No :> ";
         }
+
+        private void btn17Yes_Click(object sender, EventArgs e)
+        {
+            txtbxDiagnosedCovid.Text = " Yes :< ";
+        }
+
+        private void btn18Yes_Click(object sender, EventArgs e)
+        {
+            txtbxCovidSymptoms.Text = "Yes :<";
+        }
+
+        private void btn17No_Click(object sender, EventArgs e)
+        {
+            txtbxDiagnosedCovid.Text = " No :> ";
+        }
+
+        private void btn18No_Click(object sender, EventArgs e)
+        {
+            txtbxCovidSymptoms.Text = " No :> ";
+        }
     }
 }
