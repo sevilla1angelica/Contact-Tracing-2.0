@@ -54,7 +54,7 @@ namespace Contact_Tracing_2._0
 
         private void btn5Yes_Click(object sender, EventArgs e)
         {
-            txtbx5RunnyRose.Text = " Yes :< ";
+            txtbxRunnyRose.Text = " Yes :< ";
         }
 
         private void btn6Yes_Click(object sender, EventArgs e)
@@ -69,7 +69,47 @@ namespace Contact_Tracing_2._0
 
         private void btn8Yes_Click(object sender, EventArgs e)
         {
-            txtbx8Diarrhea.Text = " Yes :< ";
+            txtbxDiarrhea.Text = " Yes :< ";
+        }
+
+        private void btn1No_Click(object sender, EventArgs e)
+        {
+            txtbxfever.Text = " No :> ";
+        }
+
+        private void btn2No_Click(object sender, EventArgs e)
+        {
+            txtboxDryCough.Text = " No :> ";
+        }
+
+        private void btn3No_Click(object sender, EventArgs e)
+        {
+            txtbxFatigue.Text = "No :> ";
+        }
+
+        private void btn4No_Click(object sender, EventArgs e)
+        {
+            txtbxAchesandPains.Text = " No :> ";
+        }
+
+        private void btn5No_Click(object sender, EventArgs e)
+        {
+            txtbxRunnyRose.Text = " No :> ";
+        }
+
+        private void btn6No_Click(object sender, EventArgs e)
+        {
+            txtbxSoreThroat.Text = " No :> ";
+        }
+
+        private void btn7No_Click(object sender, EventArgs e)
+        {
+            txtbxShortnessofBreathe.Text = " No :> ";
+        }
+
+        private void btn8No_Click(object sender, EventArgs e)
+        {
+            txtbxDiarrhea.Text = " No :> ";
         }
     }
 }
