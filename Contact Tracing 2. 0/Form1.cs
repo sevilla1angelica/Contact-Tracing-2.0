@@ -150,12 +150,19 @@ namespace Contact_Tracing_2._0
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            if (dateoffillingup.Text == "" || txtbxFirstName.Text == "" || txtbxLastName.Text == "" || txtbxBirthdate.Text == "" || txtbxGender.Text == "" || txtbxContactNo.Text == "" || txtbxEmailaddress.Text == "" ||
+               txtbxBarangay.Text == "" || txtbxMunicipality.Text == "" || txtbxProvince.Text == "" || txtbxRegion.Text == "")
+            {
+                MessageBox.Show("Please fill up the form completely, thank you", "Error", MessageBoxButtons.OK);
+            }
+            else
             {
                 StreamWriter file = new StreamWriter(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\test.txt", true);
                 file.WriteLine("Date: " + dateoffillingup.Text + ", " + "Name: " + txtbxFirstName.Text + txtbxLastName.Text + ", " + "Birthdate:" + txtbxBirthdate.Text + ", " + txtbxGender.Text + "Contact no.:" + txtbxContactNo.Text
                     + ", " + "Email address of" + txtbxEmailaddress.Text + ", " + "residing at Barangay" + txtbxBarangay.Text + ", " + txtbxMunicipality.Text + ", " + txtbxProvince.Text + ", " + txtbxRegion.Text + ", Temperature of" + txtbxTemp.Text
                     + ", " + txtbxSummarization.Text + ", Contact with Diagnosed Covid person =" + txtbxDiagnosedCovid.Text + ", Contact with person who has covid symptoms =" + txtbxCovidSymptoms.Text);
 
+                MessageBox.Show("Keep safe at all times, especially at this time of pandemic." , "Thank you for filling up the form!", MessageBoxButtons.OK);
                 file.Close();
             }
         }
