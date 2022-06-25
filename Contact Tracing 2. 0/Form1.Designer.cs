@@ -851,6 +851,7 @@
             this.btnSave.TabIndex = 94;
             this.btnSave.Text = "Save Information";
             this.btnSave.UseVisualStyleBackColor = false;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // dateoffillingup
             // 

@@ -147,5 +147,17 @@ namespace Contact_Tracing_2._0
         {
             txtbxCovidSymptoms.Text = " No :> ";
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            {
+                StreamWriter file = new StreamWriter(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\test.txt", true);
+                file.WriteLine("Date: " + dateoffillingup.Text + ", " + "Name: " + txtbxFirstName.Text + txtbxLastName.Text + ", " + "Birthdate:" + txtbxBirthdate.Text + ", " + txtbxGender.Text + "Contact no.:" + txtbxContactNo.Text
+                    + ", " + "Email address of" + txtbxEmailaddress.Text + ", " + "residing at Barangay" + txtbxBarangay.Text + ", " + txtbxMunicipality.Text + ", " + txtbxProvince.Text + ", " + txtbxRegion.Text + ", Temperature of" + txtbxTemp.Text
+                    + ", " + txtbxSummarization.Text + ", Contact with Diagnosed Covid person =" + txtbxDiagnosedCovid.Text + ", Contact with person who has covid symptoms =" + txtbxCovidSymptoms.Text);
+
+                file.Close();
+            }
+        }
     }
 }
