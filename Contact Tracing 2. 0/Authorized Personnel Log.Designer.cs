@@ -97,6 +97,7 @@
             this.btnLog_in.TabIndex = 5;
             this.btnLog_in.Text = "Log in";
             this.btnLog_in.UseVisualStyleBackColor = false;
+            this.btnLog_in.Click += new System.EventHandler(this.btnLog_in_Click);
             // 
             // Authorized_Personnel_Log
             // 

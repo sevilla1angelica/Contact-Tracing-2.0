@@ -16,5 +16,18 @@ namespace Contact_Tracing_2._0
         {
             InitializeComponent();
         }
+
+        private void btnLog_in_Click(object sender, EventArgs e)
+        {
+            if (txtbxUsername.Text == "Ms.Sevi" && txtbxPassword.Text == "confidentialinfo")
+            {
+                MessageBox.Show("You can now view and monitor the contact tracing form.", "Welcome Ms. Sevi!");
+            }
+            else
+            {
+                MessageBox.Show("Wrong password." , "Error");
+                this.Close();
+            }
+        }
     }
 }

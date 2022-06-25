@@ -169,6 +169,7 @@ namespace Contact_Tracing_2._0
 
         private void btnContactMonitoring_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Only authorized personnel is allowed to view.", "Attention");
             Authorized_Personnel_Log authorized_Personnel = new Authorized_Personnel_Log();
             authorized_Personnel.Show();
         }
