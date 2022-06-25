@@ -22,6 +22,10 @@ namespace Contact_Tracing_2._0
             if (txtbxUsername.Text == "Ms.Sevi" && txtbxPassword.Text == "confidentialinfo")
             {
                 MessageBox.Show("You can now view and monitor the contact tracing form.", "Welcome Ms. Sevi!");
+                this.Close();
+                
+                Contact_Tracing_Monitory monitory = new Contact_Tracing_Monitory();
+                monitory.Show();
             }
             else
             {
