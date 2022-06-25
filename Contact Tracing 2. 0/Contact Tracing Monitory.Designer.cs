@@ -33,6 +33,7 @@
             this.txtbxSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.dataPath = new System.Windows.Forms.DataGridView();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dataPath)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,6 +79,7 @@
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // dataPath
             // 
@@ -87,6 +89,10 @@
             this.dataPath.RowTemplate.Height = 25;
             this.dataPath.Size = new System.Drawing.Size(578, 300);
             this.dataPath.TabIndex = 4;
+            // 
+            // openFileDialog
+            // 
+            this.openFileDialog.FileName = "openFileDialog";
             // 
             // Contact_Tracing_Monitory
             // 
@@ -114,5 +120,6 @@
         private TextBox txtbxSearch;
         private Button btnSearch;
         private DataGridView dataPath;
+        private OpenFileDialog openFileDialog;
     }
 }
