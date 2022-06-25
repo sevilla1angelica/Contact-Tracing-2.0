@@ -46,7 +46,7 @@
             this.lblAddress = new System.Windows.Forms.Label();
             this.txtbxBarangay = new System.Windows.Forms.TextBox();
             this.lblBarangay = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtbxMunicipality = new System.Windows.Forms.TextBox();
             this.lblMunicipality = new System.Windows.Forms.Label();
             this.txtbxProvince = new System.Windows.Forms.TextBox();
             this.lblProvince = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             this.btn1No = new System.Windows.Forms.Button();
             this.btn1Yes = new System.Windows.Forms.Button();
             this.lblfever = new System.Windows.Forms.Label();
-            this.txtboxDryCough = new System.Windows.Forms.TextBox();
+            this.txtbxDryCough = new System.Windows.Forms.TextBox();
             this.btn2No = new System.Windows.Forms.Button();
             this.btn2Yes = new System.Windows.Forms.Button();
             this.lblDryCough = new System.Windows.Forms.Label();
@@ -100,6 +100,9 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.dateoffillingup = new System.Windows.Forms.DateTimePicker();
             this.txtbxCovidSymptoms = new System.Windows.Forms.TextBox();
+            this.txtbxGender = new System.Windows.Forms.TextBox();
+            this.lblGender = new System.Windows.Forms.Label();
+            this.txtbxSummarization = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.logopic)).BeginInit();
             this.SuspendLayout();
             // 
@@ -191,7 +194,7 @@
             // 
             this.txtbxContactNo.BackColor = System.Drawing.Color.Beige;
             this.txtbxContactNo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtbxContactNo.Location = new System.Drawing.Point(179, 236);
+            this.txtbxContactNo.Location = new System.Drawing.Point(179, 265);
             this.txtbxContactNo.Name = "txtbxContactNo";
             this.txtbxContactNo.Size = new System.Drawing.Size(223, 22);
             this.txtbxContactNo.TabIndex = 12;
@@ -200,7 +203,7 @@
             // 
             this.lblContactNo.AutoSize = true;
             this.lblContactNo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblContactNo.Location = new System.Drawing.Point(24, 239);
+            this.lblContactNo.Location = new System.Drawing.Point(24, 268);
             this.lblContactNo.Name = "lblContactNo";
             this.lblContactNo.Size = new System.Drawing.Size(74, 13);
             this.lblContactNo.TabIndex = 11;
@@ -229,7 +232,7 @@
             // 
             this.txtbxEmailaddress.BackColor = System.Drawing.Color.Beige;
             this.txtbxEmailaddress.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtbxEmailaddress.Location = new System.Drawing.Point(179, 267);
+            this.txtbxEmailaddress.Location = new System.Drawing.Point(179, 296);
             this.txtbxEmailaddress.Name = "txtbxEmailaddress";
             this.txtbxEmailaddress.Size = new System.Drawing.Size(223, 22);
             this.txtbxEmailaddress.TabIndex = 14;
@@ -238,7 +241,7 @@
             // 
             this.lblEmailAddress.AutoSize = true;
             this.lblEmailAddress.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblEmailAddress.Location = new System.Drawing.Point(24, 270);
+            this.lblEmailAddress.Location = new System.Drawing.Point(24, 299);
             this.lblEmailAddress.Name = "lblEmailAddress";
             this.lblEmailAddress.Size = new System.Drawing.Size(83, 13);
             this.lblEmailAddress.TabIndex = 13;
@@ -250,7 +253,7 @@
             this.lblAddress.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.lblAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblAddress.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAddress.Location = new System.Drawing.Point(9, 304);
+            this.lblAddress.Location = new System.Drawing.Point(9, 333);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(50, 15);
             this.lblAddress.TabIndex = 15;
@@ -260,7 +263,7 @@
             // 
             this.txtbxBarangay.BackColor = System.Drawing.Color.Beige;
             this.txtbxBarangay.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtbxBarangay.Location = new System.Drawing.Point(179, 423);
+            this.txtbxBarangay.Location = new System.Drawing.Point(179, 452);
             this.txtbxBarangay.Name = "txtbxBarangay";
             this.txtbxBarangay.Size = new System.Drawing.Size(223, 22);
             this.txtbxBarangay.TabIndex = 23;
@@ -269,26 +272,26 @@
             // 
             this.lblBarangay.AutoSize = true;
             this.lblBarangay.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblBarangay.Location = new System.Drawing.Point(24, 426);
+            this.lblBarangay.Location = new System.Drawing.Point(24, 455);
             this.lblBarangay.Name = "lblBarangay";
             this.lblBarangay.Size = new System.Drawing.Size(60, 13);
             this.lblBarangay.TabIndex = 22;
             this.lblBarangay.Text = "Barangay :";
             // 
-            // textBox2
+            // txtbxMunicipality
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Beige;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(179, 392);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(223, 22);
-            this.textBox2.TabIndex = 21;
+            this.txtbxMunicipality.BackColor = System.Drawing.Color.Beige;
+            this.txtbxMunicipality.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbxMunicipality.Location = new System.Drawing.Point(179, 421);
+            this.txtbxMunicipality.Name = "txtbxMunicipality";
+            this.txtbxMunicipality.Size = new System.Drawing.Size(223, 22);
+            this.txtbxMunicipality.TabIndex = 21;
             // 
             // lblMunicipality
             // 
             this.lblMunicipality.AutoSize = true;
             this.lblMunicipality.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblMunicipality.Location = new System.Drawing.Point(24, 395);
+            this.lblMunicipality.Location = new System.Drawing.Point(24, 424);
             this.lblMunicipality.Name = "lblMunicipality";
             this.lblMunicipality.Size = new System.Drawing.Size(73, 13);
             this.lblMunicipality.TabIndex = 20;
@@ -298,7 +301,7 @@
             // 
             this.txtbxProvince.BackColor = System.Drawing.Color.Beige;
             this.txtbxProvince.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtbxProvince.Location = new System.Drawing.Point(179, 361);
+            this.txtbxProvince.Location = new System.Drawing.Point(179, 390);
             this.txtbxProvince.Name = "txtbxProvince";
             this.txtbxProvince.Size = new System.Drawing.Size(223, 22);
             this.txtbxProvince.TabIndex = 19;
@@ -307,7 +310,7 @@
             // 
             this.lblProvince.AutoSize = true;
             this.lblProvince.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblProvince.Location = new System.Drawing.Point(24, 364);
+            this.lblProvince.Location = new System.Drawing.Point(24, 393);
             this.lblProvince.Name = "lblProvince";
             this.lblProvince.Size = new System.Drawing.Size(53, 13);
             this.lblProvince.TabIndex = 18;
@@ -317,7 +320,7 @@
             // 
             this.txtbxRegion.BackColor = System.Drawing.Color.Beige;
             this.txtbxRegion.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtbxRegion.Location = new System.Drawing.Point(179, 330);
+            this.txtbxRegion.Location = new System.Drawing.Point(179, 359);
             this.txtbxRegion.Name = "txtbxRegion";
             this.txtbxRegion.Size = new System.Drawing.Size(223, 22);
             this.txtbxRegion.TabIndex = 17;
@@ -326,7 +329,7 @@
             // 
             this.lblRegion.AutoSize = true;
             this.lblRegion.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblRegion.Location = new System.Drawing.Point(24, 333);
+            this.lblRegion.Location = new System.Drawing.Point(24, 362);
             this.lblRegion.Name = "lblRegion";
             this.lblRegion.Size = new System.Drawing.Size(47, 13);
             this.lblRegion.TabIndex = 16;
@@ -338,7 +341,7 @@
             this.lblsymptomquestion.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.lblsymptomquestion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblsymptomquestion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblsymptomquestion.Location = new System.Drawing.Point(10, 461);
+            this.lblsymptomquestion.Location = new System.Drawing.Point(10, 492);
             this.lblsymptomquestion.Name = "lblsymptomquestion";
             this.lblsymptomquestion.Size = new System.Drawing.Size(433, 17);
             this.lblsymptomquestion.TabIndex = 24;
@@ -350,7 +353,7 @@
             this.txtbxfever.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxfever.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxfever.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxfever.Location = new System.Drawing.Point(113, 490);
+            this.txtbxfever.Location = new System.Drawing.Point(113, 521);
             this.txtbxfever.Name = "txtbxfever";
             this.txtbxfever.Size = new System.Drawing.Size(47, 22);
             this.txtbxfever.TabIndex = 53;
@@ -359,7 +362,7 @@
             // 
             this.btn1No.BackColor = System.Drawing.Color.Ivory;
             this.btn1No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn1No.Location = new System.Drawing.Point(222, 490);
+            this.btn1No.Location = new System.Drawing.Point(222, 521);
             this.btn1No.Name = "btn1No";
             this.btn1No.Size = new System.Drawing.Size(40, 23);
             this.btn1No.TabIndex = 52;
@@ -371,7 +374,7 @@
             // 
             this.btn1Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn1Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn1Yes.Location = new System.Drawing.Point(176, 490);
+            this.btn1Yes.Location = new System.Drawing.Point(176, 521);
             this.btn1Yes.Name = "btn1Yes";
             this.btn1Yes.Size = new System.Drawing.Size(40, 23);
             this.btn1Yes.TabIndex = 51;
@@ -383,28 +386,28 @@
             // 
             this.lblfever.AutoSize = true;
             this.lblfever.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblfever.Location = new System.Drawing.Point(8, 500);
+            this.lblfever.Location = new System.Drawing.Point(8, 531);
             this.lblfever.Name = "lblfever";
             this.lblfever.Size = new System.Drawing.Size(34, 13);
             this.lblfever.TabIndex = 50;
             this.lblfever.Text = "Fever";
             // 
-            // txtboxDryCough
+            // txtbxDryCough
             // 
-            this.txtboxDryCough.BackColor = System.Drawing.Color.Beige;
-            this.txtboxDryCough.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtboxDryCough.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtboxDryCough.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtboxDryCough.Location = new System.Drawing.Point(113, 519);
-            this.txtboxDryCough.Name = "txtboxDryCough";
-            this.txtboxDryCough.Size = new System.Drawing.Size(47, 22);
-            this.txtboxDryCough.TabIndex = 57;
+            this.txtbxDryCough.BackColor = System.Drawing.Color.Beige;
+            this.txtbxDryCough.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtbxDryCough.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbxDryCough.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtbxDryCough.Location = new System.Drawing.Point(113, 550);
+            this.txtbxDryCough.Name = "txtbxDryCough";
+            this.txtbxDryCough.Size = new System.Drawing.Size(47, 22);
+            this.txtbxDryCough.TabIndex = 57;
             // 
             // btn2No
             // 
             this.btn2No.BackColor = System.Drawing.Color.Ivory;
             this.btn2No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn2No.Location = new System.Drawing.Point(222, 519);
+            this.btn2No.Location = new System.Drawing.Point(222, 550);
             this.btn2No.Name = "btn2No";
             this.btn2No.Size = new System.Drawing.Size(40, 23);
             this.btn2No.TabIndex = 56;
@@ -416,7 +419,7 @@
             // 
             this.btn2Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn2Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn2Yes.Location = new System.Drawing.Point(176, 519);
+            this.btn2Yes.Location = new System.Drawing.Point(176, 550);
             this.btn2Yes.Name = "btn2Yes";
             this.btn2Yes.Size = new System.Drawing.Size(40, 23);
             this.btn2Yes.TabIndex = 55;
@@ -428,7 +431,7 @@
             // 
             this.lblDryCough.AutoSize = true;
             this.lblDryCough.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDryCough.Location = new System.Drawing.Point(8, 529);
+            this.lblDryCough.Location = new System.Drawing.Point(8, 560);
             this.lblDryCough.Name = "lblDryCough";
             this.lblDryCough.Size = new System.Drawing.Size(62, 13);
             this.lblDryCough.TabIndex = 54;
@@ -440,7 +443,7 @@
             this.txtbxFatigue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxFatigue.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxFatigue.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxFatigue.Location = new System.Drawing.Point(113, 548);
+            this.txtbxFatigue.Location = new System.Drawing.Point(113, 579);
             this.txtbxFatigue.Name = "txtbxFatigue";
             this.txtbxFatigue.Size = new System.Drawing.Size(47, 22);
             this.txtbxFatigue.TabIndex = 61;
@@ -449,7 +452,7 @@
             // 
             this.btn3No.BackColor = System.Drawing.Color.Ivory;
             this.btn3No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn3No.Location = new System.Drawing.Point(222, 548);
+            this.btn3No.Location = new System.Drawing.Point(222, 579);
             this.btn3No.Name = "btn3No";
             this.btn3No.Size = new System.Drawing.Size(40, 23);
             this.btn3No.TabIndex = 60;
@@ -461,7 +464,7 @@
             // 
             this.btn3Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn3Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn3Yes.Location = new System.Drawing.Point(176, 548);
+            this.btn3Yes.Location = new System.Drawing.Point(176, 579);
             this.btn3Yes.Name = "btn3Yes";
             this.btn3Yes.Size = new System.Drawing.Size(40, 23);
             this.btn3Yes.TabIndex = 59;
@@ -473,7 +476,7 @@
             // 
             this.lblFatigue.AutoSize = true;
             this.lblFatigue.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblFatigue.Location = new System.Drawing.Point(8, 558);
+            this.lblFatigue.Location = new System.Drawing.Point(8, 589);
             this.lblFatigue.Name = "lblFatigue";
             this.lblFatigue.Size = new System.Drawing.Size(46, 13);
             this.lblFatigue.TabIndex = 58;
@@ -485,7 +488,7 @@
             this.txtbxAchesandPains.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxAchesandPains.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxAchesandPains.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxAchesandPains.Location = new System.Drawing.Point(113, 577);
+            this.txtbxAchesandPains.Location = new System.Drawing.Point(113, 608);
             this.txtbxAchesandPains.Name = "txtbxAchesandPains";
             this.txtbxAchesandPains.Size = new System.Drawing.Size(47, 22);
             this.txtbxAchesandPains.TabIndex = 65;
@@ -494,7 +497,7 @@
             // 
             this.btn4No.BackColor = System.Drawing.Color.Ivory;
             this.btn4No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn4No.Location = new System.Drawing.Point(222, 577);
+            this.btn4No.Location = new System.Drawing.Point(222, 608);
             this.btn4No.Name = "btn4No";
             this.btn4No.Size = new System.Drawing.Size(40, 23);
             this.btn4No.TabIndex = 64;
@@ -506,7 +509,7 @@
             // 
             this.btn4Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn4Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn4Yes.Location = new System.Drawing.Point(176, 577);
+            this.btn4Yes.Location = new System.Drawing.Point(176, 608);
             this.btn4Yes.Name = "btn4Yes";
             this.btn4Yes.Size = new System.Drawing.Size(40, 23);
             this.btn4Yes.TabIndex = 63;
@@ -518,7 +521,7 @@
             // 
             this.lblAchesandPains.AutoSize = true;
             this.lblAchesandPains.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblAchesandPains.Location = new System.Drawing.Point(8, 587);
+            this.lblAchesandPains.Location = new System.Drawing.Point(8, 618);
             this.lblAchesandPains.Name = "lblAchesandPains";
             this.lblAchesandPains.Size = new System.Drawing.Size(90, 13);
             this.lblAchesandPains.TabIndex = 62;
@@ -530,7 +533,7 @@
             this.txtbxRunnyRose.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxRunnyRose.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxRunnyRose.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxRunnyRose.Location = new System.Drawing.Point(418, 490);
+            this.txtbxRunnyRose.Location = new System.Drawing.Point(418, 521);
             this.txtbxRunnyRose.Name = "txtbxRunnyRose";
             this.txtbxRunnyRose.Size = new System.Drawing.Size(47, 22);
             this.txtbxRunnyRose.TabIndex = 69;
@@ -539,7 +542,7 @@
             // 
             this.btn5No.BackColor = System.Drawing.Color.Ivory;
             this.btn5No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn5No.Location = new System.Drawing.Point(527, 488);
+            this.btn5No.Location = new System.Drawing.Point(527, 519);
             this.btn5No.Name = "btn5No";
             this.btn5No.Size = new System.Drawing.Size(40, 23);
             this.btn5No.TabIndex = 68;
@@ -551,7 +554,7 @@
             // 
             this.btn5Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn5Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn5Yes.Location = new System.Drawing.Point(481, 488);
+            this.btn5Yes.Location = new System.Drawing.Point(481, 519);
             this.btn5Yes.Name = "btn5Yes";
             this.btn5Yes.Size = new System.Drawing.Size(40, 23);
             this.btn5Yes.TabIndex = 67;
@@ -563,7 +566,7 @@
             // 
             this.lblRunnyNose.AutoSize = true;
             this.lblRunnyNose.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblRunnyNose.Location = new System.Drawing.Point(302, 495);
+            this.lblRunnyNose.Location = new System.Drawing.Point(302, 526);
             this.lblRunnyNose.Name = "lblRunnyNose";
             this.lblRunnyNose.Size = new System.Drawing.Size(68, 13);
             this.lblRunnyNose.TabIndex = 66;
@@ -575,7 +578,7 @@
             this.txtbxDiarrhea.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxDiarrhea.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxDiarrhea.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxDiarrhea.Location = new System.Drawing.Point(418, 579);
+            this.txtbxDiarrhea.Location = new System.Drawing.Point(418, 610);
             this.txtbxDiarrhea.Name = "txtbxDiarrhea";
             this.txtbxDiarrhea.Size = new System.Drawing.Size(47, 22);
             this.txtbxDiarrhea.TabIndex = 81;
@@ -584,7 +587,7 @@
             // 
             this.btn8No.BackColor = System.Drawing.Color.Ivory;
             this.btn8No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn8No.Location = new System.Drawing.Point(527, 577);
+            this.btn8No.Location = new System.Drawing.Point(527, 608);
             this.btn8No.Name = "btn8No";
             this.btn8No.Size = new System.Drawing.Size(40, 23);
             this.btn8No.TabIndex = 80;
@@ -596,7 +599,7 @@
             // 
             this.btn8Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn8Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn8Yes.Location = new System.Drawing.Point(481, 577);
+            this.btn8Yes.Location = new System.Drawing.Point(481, 608);
             this.btn8Yes.Name = "btn8Yes";
             this.btn8Yes.Size = new System.Drawing.Size(40, 23);
             this.btn8Yes.TabIndex = 79;
@@ -608,7 +611,7 @@
             // 
             this.lblDiarrhea.AutoSize = true;
             this.lblDiarrhea.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDiarrhea.Location = new System.Drawing.Point(302, 584);
+            this.lblDiarrhea.Location = new System.Drawing.Point(302, 615);
             this.lblDiarrhea.Name = "lblDiarrhea";
             this.lblDiarrhea.Size = new System.Drawing.Size(51, 13);
             this.lblDiarrhea.TabIndex = 78;
@@ -620,7 +623,7 @@
             this.txtbxShortnessofBreathe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxShortnessofBreathe.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxShortnessofBreathe.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxShortnessofBreathe.Location = new System.Drawing.Point(418, 550);
+            this.txtbxShortnessofBreathe.Location = new System.Drawing.Point(418, 581);
             this.txtbxShortnessofBreathe.Name = "txtbxShortnessofBreathe";
             this.txtbxShortnessofBreathe.Size = new System.Drawing.Size(47, 22);
             this.txtbxShortnessofBreathe.TabIndex = 77;
@@ -629,7 +632,7 @@
             // 
             this.btn7No.BackColor = System.Drawing.Color.Ivory;
             this.btn7No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn7No.Location = new System.Drawing.Point(527, 548);
+            this.btn7No.Location = new System.Drawing.Point(527, 579);
             this.btn7No.Name = "btn7No";
             this.btn7No.Size = new System.Drawing.Size(40, 23);
             this.btn7No.TabIndex = 76;
@@ -641,7 +644,7 @@
             // 
             this.btn7Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn7Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn7Yes.Location = new System.Drawing.Point(481, 548);
+            this.btn7Yes.Location = new System.Drawing.Point(481, 579);
             this.btn7Yes.Name = "btn7Yes";
             this.btn7Yes.Size = new System.Drawing.Size(40, 23);
             this.btn7Yes.TabIndex = 75;
@@ -653,7 +656,7 @@
             // 
             this.lblShortnessofBreathe.AutoSize = true;
             this.lblShortnessofBreathe.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblShortnessofBreathe.Location = new System.Drawing.Point(302, 555);
+            this.lblShortnessofBreathe.Location = new System.Drawing.Point(302, 586);
             this.lblShortnessofBreathe.Name = "lblShortnessofBreathe";
             this.lblShortnessofBreathe.Size = new System.Drawing.Size(114, 13);
             this.lblShortnessofBreathe.TabIndex = 74;
@@ -665,7 +668,7 @@
             this.txtbxSoreThroat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxSoreThroat.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxSoreThroat.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxSoreThroat.Location = new System.Drawing.Point(418, 521);
+            this.txtbxSoreThroat.Location = new System.Drawing.Point(418, 552);
             this.txtbxSoreThroat.Name = "txtbxSoreThroat";
             this.txtbxSoreThroat.Size = new System.Drawing.Size(47, 22);
             this.txtbxSoreThroat.TabIndex = 73;
@@ -674,7 +677,7 @@
             // 
             this.btn6No.BackColor = System.Drawing.Color.Ivory;
             this.btn6No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn6No.Location = new System.Drawing.Point(527, 519);
+            this.btn6No.Location = new System.Drawing.Point(527, 550);
             this.btn6No.Name = "btn6No";
             this.btn6No.Size = new System.Drawing.Size(40, 23);
             this.btn6No.TabIndex = 72;
@@ -686,7 +689,7 @@
             // 
             this.btn6Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn6Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn6Yes.Location = new System.Drawing.Point(481, 519);
+            this.btn6Yes.Location = new System.Drawing.Point(481, 550);
             this.btn6Yes.Name = "btn6Yes";
             this.btn6Yes.Size = new System.Drawing.Size(40, 23);
             this.btn6Yes.TabIndex = 71;
@@ -698,7 +701,7 @@
             // 
             this.lblSoreThroat.AutoSize = true;
             this.lblSoreThroat.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblSoreThroat.Location = new System.Drawing.Point(302, 526);
+            this.lblSoreThroat.Location = new System.Drawing.Point(302, 557);
             this.lblSoreThroat.Name = "lblSoreThroat";
             this.lblSoreThroat.Size = new System.Drawing.Size(67, 13);
             this.lblSoreThroat.TabIndex = 70;
@@ -710,7 +713,7 @@
             this.lblTemperature.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.lblTemperature.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblTemperature.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTemperature.Location = new System.Drawing.Point(8, 627);
+            this.lblTemperature.Location = new System.Drawing.Point(8, 658);
             this.lblTemperature.Name = "lblTemperature";
             this.lblTemperature.Size = new System.Drawing.Size(99, 17);
             this.lblTemperature.TabIndex = 82;
@@ -722,7 +725,7 @@
             this.txtbxTemp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxTemp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxTemp.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxTemp.Location = new System.Drawing.Point(10, 656);
+            this.txtbxTemp.Location = new System.Drawing.Point(10, 687);
             this.txtbxTemp.Name = "txtbxTemp";
             this.txtbxTemp.Size = new System.Drawing.Size(67, 23);
             this.txtbxTemp.TabIndex = 83;
@@ -732,7 +735,7 @@
             this.lblwarning.AutoSize = true;
             this.lblwarning.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
             this.lblwarning.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.lblwarning.Location = new System.Drawing.Point(12, 682);
+            this.lblwarning.Location = new System.Drawing.Point(12, 713);
             this.lblwarning.Name = "lblwarning";
             this.lblwarning.Size = new System.Drawing.Size(206, 13);
             this.lblwarning.TabIndex = 84;
@@ -753,7 +756,7 @@
             // 
             this.btn18No.BackColor = System.Drawing.Color.Ivory;
             this.btn18No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn18No.Location = new System.Drawing.Point(342, 711);
+            this.btn18No.Location = new System.Drawing.Point(342, 742);
             this.btn18No.Name = "btn18No";
             this.btn18No.Size = new System.Drawing.Size(40, 23);
             this.btn18No.TabIndex = 92;
@@ -765,7 +768,7 @@
             // 
             this.btn18Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn18Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn18Yes.Location = new System.Drawing.Point(296, 711);
+            this.btn18Yes.Location = new System.Drawing.Point(296, 742);
             this.btn18Yes.Name = "btn18Yes";
             this.btn18Yes.Size = new System.Drawing.Size(40, 23);
             this.btn18Yes.TabIndex = 91;
@@ -777,7 +780,7 @@
             // 
             this.lblCovidsymptoms.AutoSize = true;
             this.lblCovidsymptoms.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblCovidsymptoms.Location = new System.Drawing.Point(237, 695);
+            this.lblCovidsymptoms.Location = new System.Drawing.Point(237, 726);
             this.lblCovidsymptoms.Name = "lblCovidsymptoms";
             this.lblCovidsymptoms.Size = new System.Drawing.Size(352, 13);
             this.lblCovidsymptoms.TabIndex = 90;
@@ -789,7 +792,7 @@
             this.txtbxDiagnosedCovid.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxDiagnosedCovid.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxDiagnosedCovid.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxDiagnosedCovid.Location = new System.Drawing.Point(237, 663);
+            this.txtbxDiagnosedCovid.Location = new System.Drawing.Point(237, 694);
             this.txtbxDiagnosedCovid.Name = "txtbxDiagnosedCovid";
             this.txtbxDiagnosedCovid.Size = new System.Drawing.Size(47, 22);
             this.txtbxDiagnosedCovid.TabIndex = 89;
@@ -798,7 +801,7 @@
             // 
             this.btn17No.BackColor = System.Drawing.Color.Ivory;
             this.btn17No.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn17No.Location = new System.Drawing.Point(342, 663);
+            this.btn17No.Location = new System.Drawing.Point(342, 694);
             this.btn17No.Name = "btn17No";
             this.btn17No.Size = new System.Drawing.Size(40, 23);
             this.btn17No.TabIndex = 88;
@@ -810,7 +813,7 @@
             // 
             this.btn17Yes.BackColor = System.Drawing.Color.AntiqueWhite;
             this.btn17Yes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn17Yes.Location = new System.Drawing.Point(296, 663);
+            this.btn17Yes.Location = new System.Drawing.Point(296, 694);
             this.btn17Yes.Name = "btn17Yes";
             this.btn17Yes.Size = new System.Drawing.Size(40, 23);
             this.btn17Yes.TabIndex = 87;
@@ -822,7 +825,7 @@
             // 
             this.lblDiagnosedCovid.AutoSize = true;
             this.lblDiagnosedCovid.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDiagnosedCovid.Location = new System.Drawing.Point(235, 647);
+            this.lblDiagnosedCovid.Location = new System.Drawing.Point(235, 678);
             this.lblDiagnosedCovid.Name = "lblDiagnosedCovid";
             this.lblDiagnosedCovid.Size = new System.Drawing.Size(353, 13);
             this.lblDiagnosedCovid.TabIndex = 86;
@@ -833,7 +836,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Location = new System.Drawing.Point(220, 625);
+            this.label5.Location = new System.Drawing.Point(220, 656);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(182, 19);
             this.label5.TabIndex = 85;
@@ -842,7 +845,7 @@
             // btnSave
             // 
             this.btnSave.BackColor = System.Drawing.Color.Beige;
-            this.btnSave.Location = new System.Drawing.Point(462, 756);
+            this.btnSave.Location = new System.Drawing.Point(462, 772);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(127, 23);
             this.btnSave.TabIndex = 94;
@@ -864,10 +867,40 @@
             this.txtbxCovidSymptoms.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtbxCovidSymptoms.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtbxCovidSymptoms.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtbxCovidSymptoms.Location = new System.Drawing.Point(237, 711);
+            this.txtbxCovidSymptoms.Location = new System.Drawing.Point(237, 742);
             this.txtbxCovidSymptoms.Name = "txtbxCovidSymptoms";
             this.txtbxCovidSymptoms.Size = new System.Drawing.Size(47, 22);
             this.txtbxCovidSymptoms.TabIndex = 96;
+            // 
+            // txtbxGender
+            // 
+            this.txtbxGender.BackColor = System.Drawing.Color.Beige;
+            this.txtbxGender.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbxGender.Location = new System.Drawing.Point(179, 237);
+            this.txtbxGender.Name = "txtbxGender";
+            this.txtbxGender.Size = new System.Drawing.Size(223, 22);
+            this.txtbxGender.TabIndex = 98;
+            // 
+            // lblGender
+            // 
+            this.lblGender.AutoSize = true;
+            this.lblGender.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblGender.Location = new System.Drawing.Point(24, 240);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(122, 13);
+            this.lblGender.TabIndex = 97;
+            this.lblGender.Text = "Gender (Male/Female):";
+            // 
+            // txtbxSummarization
+            // 
+            this.txtbxSummarization.BackColor = System.Drawing.Color.Beige;
+            this.txtbxSummarization.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtbxSummarization.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbxSummarization.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txtbxSummarization.Location = new System.Drawing.Point(12, 745);
+            this.txtbxSummarization.Name = "txtbxSummarization";
+            this.txtbxSummarization.Size = new System.Drawing.Size(185, 22);
+            this.txtbxSummarization.TabIndex = 99;
             // 
             // CntctTrcngform
             // 
@@ -878,6 +911,9 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(611, 831);
+            this.Controls.Add(this.txtbxSummarization);
+            this.Controls.Add(this.txtbxGender);
+            this.Controls.Add(this.lblGender);
             this.Controls.Add(this.txtbxCovidSymptoms);
             this.Controls.Add(this.dateoffillingup);
             this.Controls.Add(this.btnSave);
@@ -916,7 +952,7 @@
             this.Controls.Add(this.btn3No);
             this.Controls.Add(this.btn3Yes);
             this.Controls.Add(this.lblFatigue);
-            this.Controls.Add(this.txtboxDryCough);
+            this.Controls.Add(this.txtbxDryCough);
             this.Controls.Add(this.btn2No);
             this.Controls.Add(this.btn2Yes);
             this.Controls.Add(this.lblDryCough);
@@ -927,7 +963,7 @@
             this.Controls.Add(this.lblsymptomquestion);
             this.Controls.Add(this.txtbxBarangay);
             this.Controls.Add(this.lblBarangay);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtbxMunicipality);
             this.Controls.Add(this.lblMunicipality);
             this.Controls.Add(this.txtbxProvince);
             this.Controls.Add(this.lblProvince);
@@ -979,7 +1015,7 @@
         private Label lblAddress;
         private TextBox txtbxBarangay;
         private Label lblBarangay;
-        private TextBox textBox2;
+        private TextBox txtbxMunicipality;
         private Label lblMunicipality;
         private TextBox txtbxProvince;
         private Label lblProvince;
@@ -990,7 +1026,7 @@
         private Button btn1No;
         private Button btn1Yes;
         private Label lblfever;
-        private TextBox txtboxDryCough;
+        private TextBox txtbxDryCough;
         private Button btn2No;
         private Button btn2Yes;
         private Label lblDryCough;
@@ -1033,5 +1069,8 @@
         private Button btnSave;
         private DateTimePicker dateoffillingup;
         private TextBox txtbxCovidSymptoms;
+        private TextBox txtbxGender;
+        private Label lblGender;
+        private TextBox txtbxSummarization;
     }
 }

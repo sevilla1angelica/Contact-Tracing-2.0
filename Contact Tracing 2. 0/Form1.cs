@@ -35,81 +35,97 @@ namespace Contact_Tracing_2._0
         private void btn1Yes_Click(object sender, EventArgs e)
         {
             txtbxfever.Text = " Yes :< ";
+            txtbxSummarization.Text = "With Covid Symptoms";
         }
 
         private void btn2Yes_Click(object sender, EventArgs e)
         {
-            txtboxDryCough.Text = " Yes :< ";
+            txtbxDryCough.Text = " Yes :< ";
+            txtbxSummarization.Text = "With Covid Symptoms";
         }
 
         private void btn3Yes_Click(object sender, EventArgs e)
         {
             txtbxFatigue.Text = " Yes :< ";
+            txtbxSummarization.Text = "With Covid Symptoms";
         }
 
         private void btn4Yes_Click(object sender, EventArgs e)
         {
             txtbxAchesandPains.Text = " Yes :< ";
+            txtbxSummarization.Text = "With Covid Symptoms";
         }
 
         private void btn5Yes_Click(object sender, EventArgs e)
         {
             txtbxRunnyRose.Text = " Yes :< ";
+            txtbxSummarization.Text = "With Covid Symptoms";
         }
 
         private void btn6Yes_Click(object sender, EventArgs e)
         {
             txtbxSoreThroat.Text = " Yes :< ";
+            txtbxSummarization.Text = "With Covid Symptoms";
         }
 
         private void btn7Yes_Click(object sender, EventArgs e)
         {
             txtbxShortnessofBreathe.Text = " Yes :< ";
+            txtbxSummarization.Text = "With Covid Symptoms";
         }
 
         private void btn8Yes_Click(object sender, EventArgs e)
         {
             txtbxDiarrhea.Text = " Yes :< ";
+            txtbxSummarization.Text = "With Covid Symptoms";
         }
 
         private void btn1No_Click(object sender, EventArgs e)
         {
             txtbxfever.Text = " No :> ";
+            txtbxSummarization.Text = "Without Covid Symptoms";
         }
 
         private void btn2No_Click(object sender, EventArgs e)
         {
-            txtboxDryCough.Text = " No :> ";
+            txtbxDryCough.Text = " No :> ";
+            txtbxSummarization.Text = "Without Covid Symptoms";
         }
 
         private void btn3No_Click(object sender, EventArgs e)
         {
             txtbxFatigue.Text = "No :> ";
+            txtbxSummarization.Text = "Without Covid Symptoms";
         }
 
         private void btn4No_Click(object sender, EventArgs e)
         {
             txtbxAchesandPains.Text = " No :> ";
+            txtbxSummarization.Text = "Without Covid Symptoms";
         }
 
         private void btn5No_Click(object sender, EventArgs e)
         {
             txtbxRunnyRose.Text = " No :> ";
+            txtbxSummarization.Text = "Without Covid Symptoms";
         }
 
         private void btn6No_Click(object sender, EventArgs e)
         {
             txtbxSoreThroat.Text = " No :> ";
+            txtbxSummarization.Text = "Without Covid Symptoms";
         }
 
         private void btn7No_Click(object sender, EventArgs e)
         {
             txtbxShortnessofBreathe.Text = " No :> ";
+            txtbxSummarization.Text = "Without Covid Symptoms";
         }
 
         private void btn8No_Click(object sender, EventArgs e)
         {
             txtbxDiarrhea.Text = " No :> ";
+            txtbxSummarization.Text = "Without Covid Symptoms";
         }
 
         private void btn17Yes_Click(object sender, EventArgs e)
