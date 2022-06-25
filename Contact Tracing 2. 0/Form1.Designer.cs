@@ -103,6 +103,7 @@
             this.txtbxGender = new System.Windows.Forms.TextBox();
             this.lblGender = new System.Windows.Forms.Label();
             this.txtbxSummarization = new System.Windows.Forms.TextBox();
+            this.btnContactMonitoring = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.logopic)).BeginInit();
             this.SuspendLayout();
             // 
@@ -903,6 +904,17 @@
             this.txtbxSummarization.Size = new System.Drawing.Size(185, 22);
             this.txtbxSummarization.TabIndex = 99;
             // 
+            // btnContactMonitoring
+            // 
+            this.btnContactMonitoring.BackColor = System.Drawing.Color.Beige;
+            this.btnContactMonitoring.Location = new System.Drawing.Point(8, 806);
+            this.btnContactMonitoring.Name = "btnContactMonitoring";
+            this.btnContactMonitoring.Size = new System.Drawing.Size(152, 23);
+            this.btnContactMonitoring.TabIndex = 100;
+            this.btnContactMonitoring.Text = "Contact Monitoring";
+            this.btnContactMonitoring.UseVisualStyleBackColor = false;
+            this.btnContactMonitoring.Click += new System.EventHandler(this.btnContactMonitoring_Click);
+            // 
             // CntctTrcngform
             // 
             this.AllowDrop = true;
@@ -912,6 +924,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(611, 831);
+            this.Controls.Add(this.btnContactMonitoring);
             this.Controls.Add(this.txtbxSummarization);
             this.Controls.Add(this.txtbxGender);
             this.Controls.Add(this.lblGender);
@@ -1073,5 +1086,7 @@
         private TextBox txtbxGender;
         private Label lblGender;
         private TextBox txtbxSummarization;
+        private Button btnMonitoringView;
+        private Button btnContactMonitoring;
     }
 }

@@ -1,1 +1,15 @@
-Date: 6/25/2022, Name: AngelicaSevilla, Birthdate:12/05/02, FemaleContact no.:09089274970, Email address ofangelica@gmail.com, residing at BarangaySan Juan, Taytay, Rizal, 4A CALABARZON, Temperature of36.0, Without Covid Symptoms, Contact with Diagnosed Covid person = No :> , Contact with person who has covid symptoms = No :> 
+Date: 6/25/2022, Name: AngelicaSevilla, Birthdate: 12/01/02, FemaleContact no.: 09089245680, Email address of angelicasevilla@gmail.com, residing at Barangay San Juan, Taytay, Rizal, 4A CALABARZON, Temperature of 36.0, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :>
+ 
+Date: 6/25/2022, Name: RavenQueen, Birthdate: 02/05/01, FemaleContact no.: 09665248712, Email address of queenraven@gmail.com, residing at Barangay San Juan, Cainta, Rizal, 4A CALABARZON, Temperature of 36.5, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+
+Date: 6/24/2022, Name: CrassusAdams, Birthdate: 05/04/00, MaleContact no.: 09333545816, Email address of crassusadams@gmail.com, residing at Barangay Suclayin, Baler, Aurora, 3 Central Luzon, Temperature of , With Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms = Yes :<
+
+Date: 6/24/2022, Name: AshleyKeller, Birthdate: 10/15/01, FemaleContact no.: 09125687423, Email address of ashkeller@gmail.com, residing at Barangay Zabali, Baler, Aurora, 3 Central Luzon, Temperature of 36.8, With Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms = Yes :<
+
+Date: 6/25/2022, Name: PierceLopez, Birthdate: 12/25/03, MaleContact no.: 09169784512, Email address of lopezpierce@gmail.com, residing at Barangay Lumang Bayan, Calapan, Oriental Mindoro, 4B MIMAROPA, Temperature of 36.7, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+
+Date: 6/25/2022, Name: HendrixCrisostomo, Birthdate: 07/14/02, MaleContact no.: 09123568794, Email address of drixcrisostomo@gmail.com, residing at Barangay Libis, Calapan, Oriental Mindoro, 4B MIMAROPA, Temperature of 36.5, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+
+Date: 6/25/2022, Name: NathanGray, Birthdate: 01/03/01, MaleContact no.: 09357482010, Email address of nathangray@gmail.com, residing at Barangay Bagong Nayon, Antipolo, Rizal, 4A CALABARZON, Temperature of 37.0, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+
+Date: 6/24/2022, Name: AlexDiaz, Birthdate: 11/03/02, MaleContact no.: 09135268452, Email address of alexdiazzz@gmail.com, residing at Barangay Ibayo, Marilao, Bulacan, 3 Central Luzon, Temperature of 36.2, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 

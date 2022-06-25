@@ -16,3 +16,4 @@ C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\
 C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.pdb
 C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.genruntimeconfig.cache
 C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\ref\Contact Tracing 2. 0.dll
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact_Tracing_2._0.Authorized_Personnel_Log.resources
