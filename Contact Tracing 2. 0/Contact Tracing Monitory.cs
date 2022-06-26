@@ -28,12 +28,14 @@ namespace Contact_Tracing_2._0
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
                 Title = "Looking for the Text file", CheckFileExists = true, CheckPathExists = true, Filter = "txt files (*.txt)|*.txt",
-                RestoreDirectory = true, ReadOnlyChecked = true, ShowReadOnly = true,
+                FilterIndex = 2, RestoreDirectory = true, ReadOnlyChecked = true, ShowReadOnly = true,
             };
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 txtbxSearch.Text = openFileDialog.FileName;
+                SupporterFile.file = txtbxSearch.Text;
+                DataGridView.DataSource = SupporterFile.DataTablefromTextFile(txtbxSearch.Text);
             }
         }
     }

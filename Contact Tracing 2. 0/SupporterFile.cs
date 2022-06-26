@@ -8,11 +8,14 @@ using System.IO;
 
 namespace Contact_Tracing_2._0
 {
-    internal class SupporterFile
+    class SupporterFile
     {
-        private static DataTable Contact_Tracing_Monitory(string location, char delimiter = ',')
+    public static string file;
+
+        private static DataTable DataTablefromTextFile (string location, char delimiter = ',')
         {
             DataTable result;
+            location = file;
             string[] linearray = File.ReadAllLines(location);
             result = FromDataTable(linearray, delimiter);
             return result;
@@ -20,7 +23,7 @@ namespace Contact_Tracing_2._0
 
         private static DataTable FromDataTable(string[] linearray, char delimiter)
         {
-            DataTable dt = new DataTable();
+            DataTable dt = new();
             AddColumnToTable(linearray, delimiter, ref dt);
             AddRowToTable(linearray, delimiter, ref dt);
             return dt;

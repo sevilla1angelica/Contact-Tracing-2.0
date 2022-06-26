@@ -32,9 +32,9 @@
             this.lblPath = new System.Windows.Forms.Label();
             this.txtbxSearch = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.dataPath = new System.Windows.Forms.DataGridView();
+            this.DataGridView = new System.Windows.Forms.DataGridView();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            ((System.ComponentModel.ISupportInitialize)(this.dataPath)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAllrecords
@@ -81,14 +81,14 @@
             this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // dataPath
+            // DataGridView
             // 
-            this.dataPath.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataPath.Location = new System.Drawing.Point(12, 74);
-            this.dataPath.Name = "dataPath";
-            this.dataPath.RowTemplate.Height = 25;
-            this.dataPath.Size = new System.Drawing.Size(578, 300);
-            this.dataPath.TabIndex = 4;
+            this.DataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridView.Location = new System.Drawing.Point(12, 74);
+            this.DataGridView.Name = "DataGridView";
+            this.DataGridView.RowTemplate.Height = 25;
+            this.DataGridView.Size = new System.Drawing.Size(578, 300);
+            this.DataGridView.TabIndex = 4;
             // 
             // openFileDialog
             // 
@@ -100,14 +100,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(611, 386);
-            this.Controls.Add(this.dataPath);
+            this.Controls.Add(this.DataGridView);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.txtbxSearch);
             this.Controls.Add(this.lblPath);
             this.Controls.Add(this.btnAllrecords);
             this.Name = "Contact_Tracing_Monitory";
             this.Text = "Contact_Tracing_Monitory";
-            ((System.ComponentModel.ISupportInitialize)(this.dataPath)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,7 +119,7 @@
         private Label lblPath;
         private TextBox txtbxSearch;
         private Button btnSearch;
-        private DataGridView dataPath;
+        private DataGridView DataGridView;
         private OpenFileDialog openFileDialog;
     }
 }
