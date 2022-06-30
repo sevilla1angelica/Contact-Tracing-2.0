@@ -152,9 +152,11 @@ namespace Contact_Tracing_2._0
                 file.WriteLine("Date: " + dateoffillingup.Text + ", " + "Name: " + txtbxFirstName.Text + " " + txtbxLastName.Text + ", " + "Birthdate: " + txtbxBirthdate.Text + ", " + txtbxGender.Text + ", " + "Contact no.: " + txtbxContactNo.Text
                     + ", " + "Email address of " + txtbxEmailaddress.Text + ", " + "residing at Barangay " + txtbxBarangay.Text + ", " + txtbxMunicipality.Text + ", " + txtbxProvince.Text + ", " + txtbxRegion.Text + ", Temperature of " + txtbxTemp.Text
                     + ", " + txtbxSummarization.Text + ", Contact with Diagnosed Covid person = " + txtbxDiagnosedCovid.Text + ", Contact with person who has covid symptoms = " + txtbxCovidSymptoms.Text);
+                file.WriteLine("------------------------------------");
 
-                MessageBox.Show("Keep safe at all times, especially at this time of pandemic." , "Thank you for filling up the form!", MessageBoxButtons.OK);
+                MessageBox.Show("Your input has been recorded! Keep safe at all times, especially at this time of pandemic." , "Thank you for filling up the form!", MessageBoxButtons.OK);
                 file.Close();
+                Application.Restart();
             }
         }
 
