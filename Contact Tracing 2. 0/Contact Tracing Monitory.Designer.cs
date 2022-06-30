@@ -30,11 +30,12 @@
         {
             this.btnAllrecords = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.btnSearch = new System.Windows.Forms.Button();
+            this.btnDateSearch = new System.Windows.Forms.Button();
             this.txtbxsearch = new System.Windows.Forms.TextBox();
             this.lblSearch = new System.Windows.Forms.Label();
             this.dateoffillingup = new System.Windows.Forms.DateTimePicker();
             this.rchtxtbxRecord = new System.Windows.Forms.RichTextBox();
+            this.btnNameSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAllrecords
@@ -54,16 +55,16 @@
             // 
             this.openFileDialog.FileName = "openFileDialog";
             // 
-            // btnSearch
+            // btnDateSearch
             // 
-            this.btnSearch.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnSearch.Location = new System.Drawing.Point(207, 47);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(75, 23);
-            this.btnSearch.TabIndex = 1;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            this.btnDateSearch.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnDateSearch.Location = new System.Drawing.Point(207, 19);
+            this.btnDateSearch.Name = "btnDateSearch";
+            this.btnDateSearch.Size = new System.Drawing.Size(104, 23);
+            this.btnDateSearch.TabIndex = 1;
+            this.btnDateSearch.Text = "Search by Date";
+            this.btnDateSearch.UseVisualStyleBackColor = true;
+            this.btnDateSearch.Click += new System.EventHandler(this.btnDateSearch_Click_1);
             // 
             // txtbxsearch
             // 
@@ -99,17 +100,29 @@
             this.rchtxtbxRecord.TabIndex = 97;
             this.rchtxtbxRecord.Text = "";
             // 
+            // btnNameSearch
+            // 
+            this.btnNameSearch.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btnNameSearch.Location = new System.Drawing.Point(207, 47);
+            this.btnNameSearch.Name = "btnNameSearch";
+            this.btnNameSearch.Size = new System.Drawing.Size(104, 23);
+            this.btnNameSearch.TabIndex = 98;
+            this.btnNameSearch.Text = "Search by Name";
+            this.btnNameSearch.UseVisualStyleBackColor = true;
+            this.btnNameSearch.Click += new System.EventHandler(this.btnNameSearch_Click_1);
+            // 
             // Contact_Tracing_Monitory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(611, 386);
+            this.Controls.Add(this.btnNameSearch);
             this.Controls.Add(this.rchtxtbxRecord);
             this.Controls.Add(this.dateoffillingup);
             this.Controls.Add(this.lblSearch);
             this.Controls.Add(this.txtbxsearch);
-            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.btnDateSearch);
             this.Controls.Add(this.btnAllrecords);
             this.Name = "Contact_Tracing_Monitory";
             this.Text = "Contact_Tracing_Monitory";
@@ -122,10 +135,11 @@
 
         private Button btnAllrecords;
         private OpenFileDialog openFileDialog;
-        private Button btnSearch;
+        private Button btnDateSearch;
         private TextBox txtbxsearch;
         private Label lblSearch;
         private DateTimePicker dateoffillingup;
         private RichTextBox rchtxtbxRecord;
+        private Button btnNameSearch;
     }
 }

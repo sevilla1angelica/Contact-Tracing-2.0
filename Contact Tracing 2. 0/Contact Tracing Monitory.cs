@@ -30,7 +30,7 @@ namespace Contact_Tracing_2._0
             MessageBox.Show(reader.ReadToEnd().ToString(), "Records");
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
+        private void btnDateSearch_Click_1(object sender, EventArgs e)
         {
             StreamReader reader = new StreamReader(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\test.txt");
             List<string> all = new List<string>();
@@ -70,6 +70,47 @@ namespace Contact_Tracing_2._0
                 StreamReader read = new StreamReader(path);
                 string filedata = read.ReadToEnd();
                 rchtxtbxRecord.Text = filedata.ToString();
+                read.Close();
+            }
+        }
+
+        private void btnNameSearch_Click_1(object sender, EventArgs e)
+        {
+            StreamReader namereader = new StreamReader(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\test.txt");
+            List<string> names = new List<string>();
+
+            string name = txtbxsearch.Text;
+            //string Nameinfo = dateoffillingup.Value.ToShortDateString();
+            int nameresult = 0;
+            while (!namereader.EndOfStream)
+            {
+                string record = namereader.ReadLine();
+                if (record.Contains(name))
+                {
+                    nameresult++;
+                    names.Add(record);
+                }
+            }
+            if (nameresult == 0)
+            {
+                MessageBox.Show("No results found");
+                namereader.Close();
+            }
+            else
+            {
+                namereader.Close();
+                StreamWriter filename = new StreamWriter(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\name.txt", true);
+                foreach (var record in names)
+                {
+                    filename.WriteLine(record);
+                }
+                MessageBox.Show("Found: " + nameresult.ToString() + " records with the said name");
+                filename.Close();
+
+                string path = @"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\name.txt";
+                StreamReader read = new StreamReader(path);
+                string fileName = read.ReadToEnd();
+                rchtxtbxRecord.Text = fileName.ToString();
                 read.Close();
             }
         }
