@@ -88,7 +88,6 @@
             this.txtbxPassword.Name = "txtbxPassword";
             this.txtbxPassword.Size = new System.Drawing.Size(100, 23);
             this.txtbxPassword.TabIndex = 4;
-            this.txtbxPassword.TextChanged += new System.EventHandler(this.txtbxPassword_TextChanged);
             // 
             // btnLog_in
             // 
