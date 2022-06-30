@@ -14,15 +14,6 @@ namespace Contact_Tracing_2._0
             MessageBox.Show("We will not, in any circumstances, share your personal information with other individuals or organizations without your permission, including public organizations, corporations or individuals, except when applicable by law.", "Attention");
         }
 
-        private void dateoffillingout_ValueChanged(object sender, EventArgs e)
-        {
-            DateTimePicker dynamicDTP = new DateTimePicker();
-            dynamicDTP.Name = "DyanmicDateTimePicker";
-
-            dynamicDTP.MinDate = new DateTime(2000, 1, 1);
-            dynamicDTP.MaxDate = DateTime.Today;
-        }
-
         private void dateoffillingup_ValueChanged(object sender, EventArgs e)
         {
             DateTimePicker dynamicDTP = new DateTimePicker();
@@ -157,7 +148,7 @@ namespace Contact_Tracing_2._0
             }
             else
             {
-                StreamWriter file = new StreamWriter(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\test.txt", true);
+                StreamWriter file = new StreamWriter(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\test.txt",  true);
                 file.WriteLine("Date: " + dateoffillingup.Text + ", " + "Name: " + txtbxFirstName.Text + " " + txtbxLastName.Text + ", " + "Birthdate: " + txtbxBirthdate.Text + ", " + txtbxGender.Text + ", " + "Contact no.: " + txtbxContactNo.Text
                     + ", " + "Email address of " + txtbxEmailaddress.Text + ", " + "residing at Barangay " + txtbxBarangay.Text + ", " + txtbxMunicipality.Text + ", " + txtbxProvince.Text + ", " + txtbxRegion.Text + ", Temperature of " + txtbxTemp.Text
                     + ", " + txtbxSummarization.Text + ", Contact with Diagnosed Covid person = " + txtbxDiagnosedCovid.Text + ", Contact with person who has covid symptoms = " + txtbxCovidSymptoms.Text);

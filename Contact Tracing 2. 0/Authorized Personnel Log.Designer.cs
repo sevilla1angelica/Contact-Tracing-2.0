@@ -35,6 +35,8 @@
             this.txtbxUsername = new System.Windows.Forms.TextBox();
             this.txtbxPassword = new System.Windows.Forms.TextBox();
             this.btnLog_in = new System.Windows.Forms.Button();
+            this.btnShow = new System.Windows.Forms.Button();
+            this.btnHide = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctrlock)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,6 +88,7 @@
             this.txtbxPassword.Name = "txtbxPassword";
             this.txtbxPassword.Size = new System.Drawing.Size(100, 23);
             this.txtbxPassword.TabIndex = 4;
+            this.txtbxPassword.TextChanged += new System.EventHandler(this.txtbxPassword_TextChanged);
             // 
             // btnLog_in
             // 
@@ -99,11 +102,31 @@
             this.btnLog_in.UseVisualStyleBackColor = false;
             this.btnLog_in.Click += new System.EventHandler(this.btnLog_in_Click);
             // 
+            // btnShow
+            // 
+            this.btnShow.Location = new System.Drawing.Point(414, 166);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(46, 23);
+            this.btnShow.TabIndex = 6;
+            this.btnShow.Text = "Show";
+            this.btnShow.UseVisualStyleBackColor = true;
+            // 
+            // btnHide
+            // 
+            this.btnHide.Location = new System.Drawing.Point(466, 166);
+            this.btnHide.Name = "btnHide";
+            this.btnHide.Size = new System.Drawing.Size(46, 23);
+            this.btnHide.TabIndex = 7;
+            this.btnHide.Text = "Hide";
+            this.btnHide.UseVisualStyleBackColor = true;
+            // 
             // Authorized_Personnel_Log
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(611, 377);
+            this.Controls.Add(this.btnHide);
+            this.Controls.Add(this.btnShow);
             this.Controls.Add(this.btnLog_in);
             this.Controls.Add(this.txtbxPassword);
             this.Controls.Add(this.txtbxUsername);
@@ -126,5 +149,7 @@
         private TextBox txtbxUsername;
         private TextBox txtbxPassword;
         private Button btnLog_in;
+        private Button btnShow;
+        private Button btnHide;
     }
 }

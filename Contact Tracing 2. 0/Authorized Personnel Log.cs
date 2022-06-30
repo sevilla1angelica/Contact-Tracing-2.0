@@ -19,7 +19,7 @@ namespace Contact_Tracing_2._0
 
         private void btnLog_in_Click(object sender, EventArgs e)
         {
-            if (txtbxUsername.Text == "admin" && txtbxPassword.Text == "confidentialinfo")
+            if (txtbxUsername.Text == "Ms.Sevi" && txtbxPassword.Text == "confidentialinfo")
             {
                 MessageBox.Show("You can now view and monitor the contact tracing form.", "Welcome Ms. Sevi!");
                 this.Close();
@@ -35,3 +35,4 @@ namespace Contact_Tracing_2._0
         }
     }
 }
+
