@@ -38,6 +38,7 @@ namespace Contact_Tracing_2._0
         {
             if (txtbxPassword.PasswordChar == '\0')
             {
+                btnShow.BringToFront();
                 txtbxPassword.PasswordChar = '*';
                 txtbxPassword.MaxLength = 20;
 
@@ -48,6 +49,7 @@ namespace Contact_Tracing_2._0
         {
             if (txtbxPassword.PasswordChar == '*')
             {
+                btnHide.BringToFront();
                 txtbxPassword.PasswordChar = '\0';
             }
         }

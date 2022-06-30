@@ -86,7 +86,7 @@
             // 
             this.txtbxPassword.Location = new System.Drawing.Point(308, 166);
             this.txtbxPassword.Name = "txtbxPassword";
-            this.txtbxPassword.Size = new System.Drawing.Size(100, 23);
+            this.txtbxPassword.Size = new System.Drawing.Size(152, 23);
             this.txtbxPassword.TabIndex = 4;
             // 
             // btnLog_in
@@ -103,7 +103,7 @@
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(466, 166);
+            this.btnShow.Location = new System.Drawing.Point(414, 165);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(46, 23);
             this.btnShow.TabIndex = 6;
