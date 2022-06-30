@@ -103,21 +103,23 @@
             // 
             // btnShow
             // 
-            this.btnShow.Location = new System.Drawing.Point(414, 166);
+            this.btnShow.Location = new System.Drawing.Point(466, 166);
             this.btnShow.Name = "btnShow";
             this.btnShow.Size = new System.Drawing.Size(46, 23);
             this.btnShow.TabIndex = 6;
             this.btnShow.Text = "Show";
             this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.btnShow_Click);
             // 
             // btnHide
             // 
-            this.btnHide.Location = new System.Drawing.Point(466, 166);
+            this.btnHide.Location = new System.Drawing.Point(414, 166);
             this.btnHide.Name = "btnHide";
             this.btnHide.Size = new System.Drawing.Size(46, 23);
             this.btnHide.TabIndex = 7;
             this.btnHide.Text = "Hide";
             this.btnHide.UseVisualStyleBackColor = true;
+            this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
             // 
             // Authorized_Personnel_Log
             // 

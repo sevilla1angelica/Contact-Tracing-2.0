@@ -19,7 +19,7 @@ namespace Contact_Tracing_2._0
 
         private void btnLog_in_Click(object sender, EventArgs e)
         {
-            if (txtbxUsername.Text == "Ms.Sevi" && txtbxPassword.Text == "confidentialinfo")
+            if (txtbxUsername.Text == "admin" && txtbxPassword.Text == "confidentialinfo")
             {
                 MessageBox.Show("You can now view and monitor the contact tracing form.", "Welcome Ms. Sevi!");
                 this.Close();
@@ -31,6 +31,24 @@ namespace Contact_Tracing_2._0
             {
                 MessageBox.Show("Wrong password." , "Error");
                 this.Close();
+            }
+        }
+
+        private void btnHide_Click(object sender, EventArgs e)
+        {
+            if (txtbxPassword.PasswordChar == '\0')
+            {
+                txtbxPassword.PasswordChar = '*';
+                txtbxPassword.MaxLength = 20;
+
+            }
+        }
+
+        private void btnShow_Click(object sender, EventArgs e)
+        {
+            if (txtbxPassword.PasswordChar == '*')
+            {
+                txtbxPassword.PasswordChar = '\0';
             }
         }
     }
