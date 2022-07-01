@@ -186,5 +186,12 @@ namespace Contact_Tracing_2._0
                 qR_Code_Generator.Show();
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Welcome! Read/Scan your qr code to autofill up the data next time! Thank you!", "Hello!");
+            QR_Code_Scanner QR_Code_Scanner = new QR_Code_Scanner();
+            QR_Code_Scanner.Show();
+        }
     }
 }

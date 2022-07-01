@@ -82,7 +82,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(387, 450);
+            this.ClientSize = new System.Drawing.Size(383, 450);
             this.Controls.Add(this.pctrbxCode);
             this.Controls.Add(this.txtbxQRCodeGen);
             this.Controls.Add(this.btnGenerate);
