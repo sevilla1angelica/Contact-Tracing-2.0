@@ -156,7 +156,6 @@ namespace Contact_Tracing_2._0
 
                 MessageBox.Show("Your input has been recorded! Keep safe at all times, especially at this time of pandemic." , "Thank you for filling up the form!", MessageBoxButtons.OK);
                 file.Close();
-                Application.Restart();
             }
         }
 
@@ -165,6 +164,27 @@ namespace Contact_Tracing_2._0
             MessageBox.Show("Only authorized personnel is allowed to view.", "Attention");
             Authorized_Personnel_Log authorized_Personnel = new Authorized_Personnel_Log();
             authorized_Personnel.Show();
+        }
+
+        private void btnGenerateQRCode_Click(object sender, EventArgs e)
+        {
+            if (dateoffillingup.Text == "" || txtbxFirstName.Text == "" || txtbxLastName.Text == "" || txtbxBirthdate.Text == "" || txtbxGender.Text == "" || txtbxContactNo.Text == "" || txtbxEmailaddress.Text == "" ||
+              txtbxBarangay.Text == "" || txtbxMunicipality.Text == "" || txtbxProvince.Text == "" || txtbxRegion.Text == "")
+            {
+                MessageBox.Show("Please fill up the form completely, thank you", "Error", MessageBoxButtons.OK);
+            }
+            else
+            {
+                StreamWriter file = new StreamWriter(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\code.txt", true);
+                file.WriteLine("Date: " + dateoffillingup.Text + ", " + "Name: " + txtbxFirstName.Text + " " + txtbxLastName.Text + ", " + "Birthdate: " + txtbxBirthdate.Text + ", " + txtbxGender.Text + ", " + "Contact no.: " + txtbxContactNo.Text
+                    + ", " + "Email address of " + txtbxEmailaddress.Text + ", " + "residing at Barangay " + txtbxBarangay.Text + ", " + txtbxMunicipality.Text + ", " + txtbxProvince.Text + ", " + txtbxRegion.Text + ", Temperature of " + txtbxTemp.Text
+                    + ", " + txtbxSummarization.Text + ", Contact with Diagnosed Covid person = " + txtbxDiagnosedCovid.Text + ", Contact with person who has covid symptoms = " + txtbxCovidSymptoms.Text);
+                file.Close();
+
+                MessageBox.Show("Welcome! Generate your qr code to autofill up the data next time! However, you must complete filing up the form at least once. Thank you!", "Hello!");
+                QR_Code_Generator qR_Code_Generator = new QR_Code_Generator();
+                qR_Code_Generator.Show();
+            }
         }
     }
 }

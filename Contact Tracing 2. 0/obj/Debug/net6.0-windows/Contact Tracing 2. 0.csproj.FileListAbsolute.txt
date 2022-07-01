@@ -19,3 +19,6 @@ C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\
 C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact_Tracing_2._0.Authorized_Personnel_Log.resources
 C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact_Tracing_2._0.Contact_Tracing_Monitory.resources
 C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact_Tracing_2._0.filedatedata.resources
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\bin\Debug\net6.0-windows\QRCoder.dll
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact_Tracing_2._0.QR_Code_Generator.resources
+C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\Contact Tracing 2. 0\obj\Debug\net6.0-windows\Contact Tracing 2. 0.csproj.CopyComplete

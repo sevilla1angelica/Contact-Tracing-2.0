@@ -104,6 +104,7 @@
             this.lblGender = new System.Windows.Forms.Label();
             this.txtbxSummarization = new System.Windows.Forms.TextBox();
             this.btnContactMonitoring = new System.Windows.Forms.Button();
+            this.btnGenerateQRCode = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.logopic)).BeginInit();
             this.SuspendLayout();
             // 
@@ -915,6 +916,17 @@
             this.btnContactMonitoring.UseVisualStyleBackColor = false;
             this.btnContactMonitoring.Click += new System.EventHandler(this.btnContactMonitoring_Click);
             // 
+            // btnGenerateQRCode
+            // 
+            this.btnGenerateQRCode.BackColor = System.Drawing.Color.Beige;
+            this.btnGenerateQRCode.Location = new System.Drawing.Point(481, 43);
+            this.btnGenerateQRCode.Name = "btnGenerateQRCode";
+            this.btnGenerateQRCode.Size = new System.Drawing.Size(107, 43);
+            this.btnGenerateQRCode.TabIndex = 101;
+            this.btnGenerateQRCode.Text = "Generate QR Code";
+            this.btnGenerateQRCode.UseVisualStyleBackColor = false;
+            this.btnGenerateQRCode.Click += new System.EventHandler(this.btnGenerateQRCode_Click);
+            // 
             // CntctTrcngform
             // 
             this.AllowDrop = true;
@@ -924,6 +936,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(611, 831);
+            this.Controls.Add(this.btnGenerateQRCode);
             this.Controls.Add(this.btnContactMonitoring);
             this.Controls.Add(this.txtbxSummarization);
             this.Controls.Add(this.txtbxGender);
@@ -1088,5 +1101,6 @@
         private TextBox txtbxSummarization;
         private Button btnMonitoringView;
         private Button btnContactMonitoring;
+        private Button btnGenerateQRCode;
     }
 }
