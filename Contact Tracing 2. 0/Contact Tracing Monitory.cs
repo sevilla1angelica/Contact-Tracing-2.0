@@ -62,6 +62,7 @@ namespace Contact_Tracing_2._0
                 foreach (var record in all)
                 {
                     filedate.WriteLine(record);
+                    filedate.WriteLine("------------------------------------");
                 }
                 MessageBox.Show("Found: " + results.ToString() + " records on the said date");
                 filedate.Close();
@@ -103,6 +104,7 @@ namespace Contact_Tracing_2._0
                 foreach (var record in names)
                 {
                     filename.WriteLine(record);
+                    filename.WriteLine("------------------------------------");
                 }
                 MessageBox.Show("Found: " + nameresult.ToString() + " records with the said name");
                 filename.Close();
