@@ -87,7 +87,7 @@
             this.Controls.Add(this.btnGenerate);
             this.Controls.Add(this.lblQRCodeGenerator);
             this.Name = "QR_Code_Generator";
-            this.Text = "QR_Code_Generator";
+            this.Text = "QR Code Generator";
             ((System.ComponentModel.ISupportInitialize)(this.pctrbxCode)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
