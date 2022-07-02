@@ -43,7 +43,7 @@
             // cmbxCam
             // 
             this.cmbxCam.FormattingEnabled = true;
-            this.cmbxCam.Location = new System.Drawing.Point(82, 50);
+            this.cmbxCam.Location = new System.Drawing.Point(82, 69);
             this.cmbxCam.Name = "cmbxCam";
             this.cmbxCam.Size = new System.Drawing.Size(263, 23);
             this.cmbxCam.TabIndex = 21;
@@ -51,7 +51,7 @@
             // lblCamera
             // 
             this.lblCamera.AutoSize = true;
-            this.lblCamera.Location = new System.Drawing.Point(25, 53);
+            this.lblCamera.Location = new System.Drawing.Point(25, 77);
             this.lblCamera.Name = "lblCamera";
             this.lblCamera.Size = new System.Drawing.Size(51, 15);
             this.lblCamera.TabIndex = 20;
@@ -61,7 +61,7 @@
             // 
             this.pctrbxscan.BackColor = System.Drawing.Color.White;
             this.pctrbxscan.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pctrbxscan.Location = new System.Drawing.Point(25, 90);
+            this.pctrbxscan.Location = new System.Drawing.Point(25, 109);
             this.pctrbxscan.Name = "pctrbxscan";
             this.pctrbxscan.Size = new System.Drawing.Size(320, 282);
             this.pctrbxscan.TabIndex = 19;
@@ -70,17 +70,17 @@
             // txtbxQRCodeScan
             // 
             this.txtbxQRCodeScan.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtbxQRCodeScan.Location = new System.Drawing.Point(25, 378);
+            this.txtbxQRCodeScan.Location = new System.Drawing.Point(360, 109);
             this.txtbxQRCodeScan.Multiline = true;
             this.txtbxQRCodeScan.Name = "txtbxQRCodeScan";
-            this.txtbxQRCodeScan.Size = new System.Drawing.Size(320, 63);
+            this.txtbxQRCodeScan.Size = new System.Drawing.Size(436, 282);
             this.txtbxQRCodeScan.TabIndex = 18;
             // 
             // btnScan
             // 
             this.btnScan.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnScan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnScan.Location = new System.Drawing.Point(25, 447);
+            this.btnScan.Location = new System.Drawing.Point(119, 397);
             this.btnScan.Name = "btnScan";
             this.btnScan.Size = new System.Drawing.Size(117, 33);
             this.btnScan.TabIndex = 17;
@@ -94,7 +94,7 @@
             this.lblQRCodeScanner.BackColor = System.Drawing.Color.DarkKhaki;
             this.lblQRCodeScanner.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblQRCodeScanner.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblQRCodeScanner.Location = new System.Drawing.Point(119, 12);
+            this.lblQRCodeScanner.Location = new System.Drawing.Point(119, 31);
             this.lblQRCodeScanner.Name = "lblQRCodeScanner";
             this.lblQRCodeScanner.Size = new System.Drawing.Size(134, 23);
             this.lblQRCodeScanner.TabIndex = 16;
@@ -102,13 +102,14 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // btnRead
             // 
             this.btnRead.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnRead.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRead.Location = new System.Drawing.Point(228, 447);
+            this.btnRead.Location = new System.Drawing.Point(524, 397);
             this.btnRead.Name = "btnRead";
             this.btnRead.Size = new System.Drawing.Size(117, 33);
             this.btnRead.TabIndex = 22;
@@ -120,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(377, 483);
+            this.ClientSize = new System.Drawing.Size(819, 453);
             this.Controls.Add(this.btnRead);
             this.Controls.Add(this.cmbxCam);
             this.Controls.Add(this.lblCamera);
@@ -130,7 +131,6 @@
             this.Controls.Add(this.lblQRCodeScanner);
             this.Name = "QR_Code_Scanner";
             this.Text = "QR_Code_Scanner";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QR_Code_Scanner_FormClosing);
             this.Load += new System.EventHandler(this.QR_Code_Scanner_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctrbxscan)).EndInit();
             this.ResumeLayout(false);

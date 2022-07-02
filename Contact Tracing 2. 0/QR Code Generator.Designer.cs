@@ -41,7 +41,7 @@
             this.lblQRCodeGenerator.BackColor = System.Drawing.Color.DarkKhaki;
             this.lblQRCodeGenerator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblQRCodeGenerator.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblQRCodeGenerator.Location = new System.Drawing.Point(119, 13);
+            this.lblQRCodeGenerator.Location = new System.Drawing.Point(324, 26);
             this.lblQRCodeGenerator.Name = "lblQRCodeGenerator";
             this.lblQRCodeGenerator.Size = new System.Drawing.Size(148, 23);
             this.lblQRCodeGenerator.TabIndex = 0;
@@ -51,7 +51,7 @@
             // 
             this.btnGenerate.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnGenerate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnGenerate.Location = new System.Drawing.Point(131, 406);
+            this.btnGenerate.Location = new System.Drawing.Point(542, 388);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(117, 33);
             this.btnGenerate.TabIndex = 1;
@@ -62,19 +62,21 @@
             // txtbxQRCodeGen
             // 
             this.txtbxQRCodeGen.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtbxQRCodeGen.Location = new System.Drawing.Point(35, 337);
+            this.txtbxQRCodeGen.Location = new System.Drawing.Point(411, 71);
             this.txtbxQRCodeGen.Multiline = true;
             this.txtbxQRCodeGen.Name = "txtbxQRCodeGen";
-            this.txtbxQRCodeGen.Size = new System.Drawing.Size(320, 63);
+            this.txtbxQRCodeGen.Size = new System.Drawing.Size(352, 311);
             this.txtbxQRCodeGen.TabIndex = 2;
             // 
             // pctrbxCode
             // 
             this.pctrbxCode.BackColor = System.Drawing.Color.White;
-            this.pctrbxCode.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pctrbxCode.Location = new System.Drawing.Point(35, 49);
+            this.pctrbxCode.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pctrbxCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pctrbxCode.Location = new System.Drawing.Point(25, 71);
             this.pctrbxCode.Name = "pctrbxCode";
-            this.pctrbxCode.Size = new System.Drawing.Size(320, 282);
+            this.pctrbxCode.Size = new System.Drawing.Size(352, 311);
+            this.pctrbxCode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctrbxCode.TabIndex = 3;
             this.pctrbxCode.TabStop = false;
             // 
@@ -82,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 450);
+            this.ClientSize = new System.Drawing.Size(850, 481);
             this.Controls.Add(this.pctrbxCode);
             this.Controls.Add(this.txtbxQRCodeGen);
             this.Controls.Add(this.btnGenerate);

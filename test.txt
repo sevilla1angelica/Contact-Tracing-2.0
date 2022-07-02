@@ -27,3 +27,13 @@ Date: 7/2/2022, Name: Gerald Lee, Birthdate: 04/07/02, Male, Contact no.: 091234
 ------------------------------------
 Date: 7/2/2022, Name: lala lala, Birthdate: lala, lala, Contact no.: lala, Email address of lala, residing at Barangay lala, lala, lala, lala, Temperature of 36.4, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
 ------------------------------------
+Date: 7/2/2022, Name: V h, Birthdate: ihi, jerf, Contact no.: h, Email address of [pwk, residing at Barangay hi, hi, bh, b, Temperature of 36.5, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+------------------------------------
+Date: 7/2/2022, Name: u hih, Birthdate: ihi, kkl, Contact no.: hi, Email address of hi, residing at Barangay h, h, hi, h, Temperature of 36.0, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+------------------------------------
+Date: 7/2/2022, Name: ini hio, Birthdate: hi, p, Contact no.: hih, Email address of ih, residing at Barangay hi, hi, i, ih, Temperature of 36, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+------------------------------------
+Date: 7/2/2022, Name: y l, Birthdate: gu, o, Contact no.: i, Email address of hi, residing at Barangay o, h, ho, h, Temperature of 36.2, Without Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+------------------------------------
+Date: 7/2/2022, Name: bu bg, Birthdate: k, kln, Contact no.: h, Email address of i, residing at Barangay kib, b, kih, i, Temperature of 37, With Covid Symptoms, Contact with Diagnosed Covid person =  No :> , Contact with person who has covid symptoms =  No :> 
+------------------------------------

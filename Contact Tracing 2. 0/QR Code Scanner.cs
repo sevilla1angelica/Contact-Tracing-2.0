@@ -14,6 +14,7 @@ using ZXing;
 using ZXing.Aztec;
 using System.IO;
 using ZXing.Aztec.Internal;
+using ZXing.Windows.Compatibility;
 
 namespace Contact_Tracing_2._0
 {
@@ -49,10 +50,15 @@ namespace Contact_Tracing_2._0
             pctrbxscan.Image = (Bitmap)eventArgs.Frame.Clone();
         }
 
-        private void QR_Code_Scanner_FormClosing(object sender, FormClosingEventArgs e)
+        private VideoCaptureDevice GetFinalFrame()
+        {
+            return FinalFrame;
+        }
+
+        private void QR_Code_Scanner_FormClosing(object sender, FormClosingEventArgs e, VideoCaptureDevice finalFrame)
         {
             if (FinalFrame.IsRunning == true)
-                FinalFrame.Stop();
+                finalFrame.Stop();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -77,9 +83,5 @@ namespace Contact_Tracing_2._0
         {
             timer1.Start();
         }
-    }
-    internal class BarcodeReader
-    {
-
     }
 }
