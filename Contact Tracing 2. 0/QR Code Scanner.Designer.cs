@@ -35,8 +35,9 @@
             this.txtbxQRCodeScan = new System.Windows.Forms.TextBox();
             this.btnScan = new System.Windows.Forms.Button();
             this.lblQRCodeScanner = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.ScanTimer = new System.Windows.Forms.Timer(this.components);
             this.btnRead = new System.Windows.Forms.Button();
+            this.btnSend = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctrbxscan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,7 +81,7 @@
             // 
             this.btnScan.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnScan.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnScan.Location = new System.Drawing.Point(119, 397);
+            this.btnScan.Location = new System.Drawing.Point(25, 397);
             this.btnScan.Name = "btnScan";
             this.btnScan.Size = new System.Drawing.Size(117, 33);
             this.btnScan.TabIndex = 17;
@@ -100,16 +101,16 @@
             this.lblQRCodeScanner.TabIndex = 16;
             this.lblQRCodeScanner.Text = "QR Code Scanner";
             // 
-            // timer1
+            // ScanTimer
             // 
-            this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.ScanTimer.Interval = 1000;
+            this.ScanTimer.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // btnRead
             // 
             this.btnRead.BackColor = System.Drawing.Color.DarkKhaki;
             this.btnRead.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRead.Location = new System.Drawing.Point(524, 397);
+            this.btnRead.Location = new System.Drawing.Point(228, 397);
             this.btnRead.Name = "btnRead";
             this.btnRead.Size = new System.Drawing.Size(117, 33);
             this.btnRead.TabIndex = 22;
@@ -117,11 +118,24 @@
             this.btnRead.UseVisualStyleBackColor = false;
             this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
+            // btnSend
+            // 
+            this.btnSend.BackColor = System.Drawing.Color.DarkKhaki;
+            this.btnSend.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSend.Location = new System.Drawing.Point(463, 397);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(245, 33);
+            this.btnSend.TabIndex = 23;
+            this.btnSend.Text = "Send values in the filing up form";
+            this.btnSend.UseVisualStyleBackColor = false;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            // 
             // QR_Code_Scanner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(819, 453);
+            this.Controls.Add(this.btnSend);
             this.Controls.Add(this.btnRead);
             this.Controls.Add(this.cmbxCam);
             this.Controls.Add(this.lblCamera);
@@ -131,6 +145,7 @@
             this.Controls.Add(this.lblQRCodeScanner);
             this.Name = "QR_Code_Scanner";
             this.Text = "QR_Code_Scanner";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.QR_Code_Scanner_FormClosing);
             this.Load += new System.EventHandler(this.QR_Code_Scanner_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctrbxscan)).EndInit();
             this.ResumeLayout(false);
@@ -146,7 +161,8 @@
         private TextBox txtbxQRCodeScan;
         private Button btnScan;
         private Label lblQRCodeScanner;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer ScanTimer;
         private Button btnRead;
+        private Button btnSend;
     }
 }

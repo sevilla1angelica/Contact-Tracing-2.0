@@ -2,10 +2,13 @@ namespace Contact_Tracing_2._0
 {
     public partial class CntctTrcngform : Form
     {
-        public CntctTrcngform()
+        //QR_Code_Scanner scannerform;
+         
+        public CntctTrcngform(/*QR_Code_Scanner form*/)
         {
             InitializeComponent();
-        }
+            //this.scannerform = form;
+        } 
 
 
         private void btnInformation_Click(object sender, EventArgs e)
@@ -191,7 +194,7 @@ namespace Contact_Tracing_2._0
         {
             MessageBox.Show("Welcome! Read/Scan your qr code to autofill up the data next time! Thank you!", "Hello!");
             QR_Code_Scanner QR_Code_Scanner = new QR_Code_Scanner();
-            QR_Code_Scanner.Show();
+            QR_Code_Scanner.Show();            
         }
     }
 }

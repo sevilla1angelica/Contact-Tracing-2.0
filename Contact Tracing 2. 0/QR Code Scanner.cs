@@ -55,11 +55,6 @@ namespace Contact_Tracing_2._0
             return FinalFrame;
         }
 
-        private void QR_Code_Scanner_FormClosing(object sender, FormClosingEventArgs e, VideoCaptureDevice finalFrame)
-        {
-            if (FinalFrame.IsRunning == true)
-                finalFrame.Stop();
-        }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -75,13 +70,41 @@ namespace Contact_Tracing_2._0
             }
             catch (Exception ex)
             {
-
+                
             }
         }
 
         private void btnRead_Click(object sender, EventArgs e)
         {
-            timer1.Start();
+            ScanTimer.Start();
+        }
+
+        private void btnSend_Click(object sender, EventArgs e)
+        {
+            string data = txtbxQRCodeScan.Text;
+            if (data != "")
+            {
+                MessageBox.Show("Can't be read.", "Try Again");
+            }
+            else
+            {
+                StreamWriter dataFromQRCode = new StreamWriter(@"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\scanned code.txt", true);
+                dataFromQRCode.WriteLine(data);
+                dataFromQRCode.Close();
+
+                CntctTrcngform form1 = new CntctTrcngform();
+                form1.Show();
+                
+                string path = @"C:\Users\HP\OneDrive\Desktop\Contact Tracing 2.0\scanned code.txt";
+                StreamReader read = new StreamReader(path);
+                string fileName = read.ReadToEnd();
+            }
+        }
+
+        private void QR_Code_Scanner_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (FinalFrame.IsRunning == true)
+                FinalFrame.SignalToStop();
         }
     }
 }
